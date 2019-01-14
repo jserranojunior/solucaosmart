@@ -2373,3 +2373,15 @@ fieldset[disabled] .s-btn {
 .s-swiper__pagination-v1--dark .swiper-pagination-bullet-active {
   background: #13b1cd;
 }
+
+
+
+.s-header__nav-menu-link {
+  font-size: 1.1rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  padding-bottom: 15px;
+  list-style: none;
+}
