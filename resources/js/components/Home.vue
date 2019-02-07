@@ -3,7 +3,7 @@
             <div class="container-fluid smart-body">
                 <div class="row row-space">
                     <div class="col-12">
-                        <img src="/projeto/public/img/logo.png" alt="">
+                        <img src="/img/logo.png" alt="">
                     </div>
                 </div>
                 <div class="row row-space justify-content-md-center">
