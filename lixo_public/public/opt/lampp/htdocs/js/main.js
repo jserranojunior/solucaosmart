@@ -14098,20 +14098,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -14135,7 +14121,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     this.inputs.forma_pagamento = "";
     this.inputs.transferencia = "";
     this.inputs.deposito = "";
-    this.inputs.projetos = "";
   },
   mounted: function mounted() {
     this.changeBackground();
@@ -16520,69 +16505,6 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "row row-space-form justify-content-center" }, [
-      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
-        _c(
-          "select",
-          {
-            directives: [
-              {
-                name: "model",
-                rawName: "v-model",
-                value: _vm.inputs.projetos,
-                expression: "inputs.projetos"
-              }
-            ],
-            staticClass: "form-control",
-            on: {
-              change: function($event) {
-                var $$selectedVal = Array.prototype.filter
-                  .call($event.target.options, function(o) {
-                    return o.selected
-                  })
-                  .map(function(o) {
-                    var val = "_value" in o ? o._value : o.value
-                    return val
-                  })
-                _vm.$set(
-                  _vm.inputs,
-                  "projetos",
-                  $event.target.multiple ? $$selectedVal : $$selectedVal[0]
-                )
-              }
-            }
-          },
-          [
-            _c("option", { attrs: { value: "", disabled: "" } }, [
-              _vm._v("Projetos")
-            ]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Big Casa & Construção")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("GBE Modas")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Farmácia Farmelhor")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Supermercado")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Posto de Gasolina")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Clínica Médica")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Instituição de Ensino")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Loja de Sapato")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Loja de Roupa")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Papelaria")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Incorporadora")])
-          ]
-        )
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
       _c("div", { staticClass: "col-lg-2 col-md-4" }, [
         _c("input", {
           directives: [
@@ -16775,6 +16697,10 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
     _c("div", { staticClass: "row row-space-form justify-content-center" }, [
       _c(
         "div",
@@ -16810,6 +16736,30 @@ var staticRenderFns = [
         _c("h4", [_vm._v("PROPONENTES")])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-12 row-space text-center" }, [
+      _c("h5", [_vm._v("CÓPIAS DAS DOCUMENTAÇÕES ANEXADAS")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "row row-space-form justify-content-center" },
+      [
+        _c("div", { staticClass: "col-md-12 col-lg-8 text-center" }, [
+          _vm._v(
+            "\n            RNE | CPF | Comprovante Residencial | Comprovante Pagamento\n        "
+          )
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true

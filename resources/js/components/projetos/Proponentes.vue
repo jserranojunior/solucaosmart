@@ -77,6 +77,28 @@
              </div>
          </div>
 
+<div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <select class="form-control" v-model="inputs.projetos">
+                     <option value="" disabled>Projetos</option>
+                     <option>Big Casa & Construção</option>
+                    <option>GBE Modas</option>
+<option>Farmácia Farmelhor</option>
+<option>Supermercado</option>
+<option>Posto de Gasolina</option>
+<option>Clínica Médica</option>
+<option>Instituição de Ensino</option>
+<option>Loja de Sapato</option>
+<option>Loja de Roupa</option>
+<option>Papelaria</option>
+<option>Incorporadora</option>
+                 </select>
+             </div>             
+         </div>
+
+
+
+
          <!-- APORTE -->
         <div class="row row-space-form justify-content-center">
              <div class="col-lg-2 col-md-4">
@@ -116,15 +138,7 @@
              </div>             
          </div>
 
-            <div class="col-12 row-space text-center">
-                 <h5>CÓPIAS DAS DOCUMENTAÇÕES ANEXADAS</h5>
-             </div>
-             <div class="row row-space-form justify-content-center">
-             <div class="col-md-12 col-lg-8 text-center">
-                 RNE | CPF | Comprovante Residencial | Comprovante Pagamento
-             </div>
-            
-         </div>       
+               
         
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-4 col-md-8 text-right">
@@ -170,6 +184,7 @@ import AwesomeMask from 'awesome-mask'
              this.inputs.forma_pagamento = ""
              this.inputs.transferencia = ""
              this.inputs.deposito = ""
+             this.inputs.projetos = ""
          },
          mounted(){
              this.changeBackground();
