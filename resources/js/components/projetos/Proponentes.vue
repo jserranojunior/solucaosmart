@@ -180,9 +180,11 @@ import AwesomeMask from 'awesome-mask'
          methods:{
               ...mapActions([
             'SubmitProp',
+            'EnviarEmail',
         ]),
         submit(){
             this.SubmitProp(this.inputs)
+            this.EnviarEmail(this.inputs)
         },
         changeBackground(){
             const el = document.body;
@@ -190,7 +192,23 @@ import AwesomeMask from 'awesome-mask'
         }
          },
          beforeMount(){
+             this.inputs.nome = ""
+             this.inputs.valor_aporte = ""
+             this.inputs.data_nascimento = ""
              this.inputs.estado_civil = ""
+             this.inputs.rne = ""
+             this.inputs.cpf = ""
+             this.inputs.telefone = ""
+             this.inputs.celular = ""
+             this.inputs.email = ""
+             this.inputs.profissao = ""
+             this.inputs.nacionalidade = ""
+             this.inputs.logradouro = ""
+             this.inputs.cep = ""
+             this.inputs.bairro= ""
+             this.inputs.numero = ""
+             this.inputs.complemento = ""
+             this.inputs.observacao = ""            
              this.inputs.forma_pagamento = ""
              this.inputs.transferencia = ""
              this.inputs.deposito = ""

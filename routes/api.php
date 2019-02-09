@@ -27,4 +27,8 @@ Route::group([
 
     Route::post('register', 'Api\V1\Auth\RegisterController@register');
 
-});
+}
+
+);
+
+Route::post('send', 'EmailController@send');

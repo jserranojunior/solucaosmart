@@ -14229,9 +14229,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       inputs: {}
     };
   },
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])(['SubmitProp']), {
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])(['SubmitProp', 'EnviarEmail']), {
     submit: function submit() {
       this.SubmitProp(this.inputs);
+      this.EnviarEmail(this.inputs);
     },
     changeBackground: function changeBackground() {
       var el = document.body;
@@ -14239,7 +14240,23 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     }
   }),
   beforeMount: function beforeMount() {
+    this.inputs.nome = "";
+    this.inputs.valor_aporte = "";
+    this.inputs.data_nascimento = "";
     this.inputs.estado_civil = "";
+    this.inputs.rne = "";
+    this.inputs.cpf = "";
+    this.inputs.telefone = "";
+    this.inputs.celular = "";
+    this.inputs.email = "";
+    this.inputs.profissao = "";
+    this.inputs.nacionalidade = "";
+    this.inputs.logradouro = "";
+    this.inputs.cep = "";
+    this.inputs.bairro = "";
+    this.inputs.numero = "";
+    this.inputs.complemento = "";
+    this.inputs.observacao = "";
     this.inputs.forma_pagamento = "";
     this.inputs.transferencia = "";
     this.inputs.deposito = "";
@@ -32452,16 +32469,28 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   state: {
-    proponentes: {}
+    proponentes: {},
+    email: ''
   },
   mutations: {
     SUBMITPROP: function SUBMITPROP(state, inputs) {
       state.proponentes = inputs;
+    },
+    ENVIAR_EMAIL: function ENVIAR_EMAIL(state, email) {
+      state.email = email;
     }
   },
   actions: {
     SubmitProp: function SubmitProp(context, data) {
       context.commit('SUBMITPROP', data);
+    },
+    EnviarEmail: function EnviarEmail(context, data) {
+      var url = '/solucaosmart/api/send';
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(url, data).then(function (response) {
+        return context.commit('ENVIAR_EMAIL', response.data);
+      }).catch(function (error) {
+        console.log(error);
+      });
     }
   }
 });
