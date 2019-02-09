@@ -47,6 +47,16 @@
              </div>
          </div>
 
+        <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.profissao" class="form-control" placeholder="Profissão">                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.nacionalidade" class="form-control" placeholder="Nacionalidade">
+             </div>
+         </div>
+
+
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-4 col-md-8">
                  <input type="text" v-model="inputs.email" class="form-control" placeholder="E-mail"> 

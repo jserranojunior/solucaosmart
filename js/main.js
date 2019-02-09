@@ -14014,31 +14014,14 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Contrato",
+  data: function data() {
+    return {
+      body: ''
+    };
+  },
   computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])({
     proponente: function proponente(state) {
       return state.Projetos.proponentes;
@@ -14046,6 +14029,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   })),
   mounted: function mounted() {
     console.log(this.proponente.nome);
+    this.body = "<div class=\"container\"></div>";
   },
   methods: {
     print: function print() {
@@ -14072,6 +14056,16 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -16208,99 +16202,188 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _c("div", { staticClass: "container-fluid" }, [
-      _vm._m(0),
+      _c("div", { staticClass: "row row-space" }, [
+        _c("div", { staticClass: "col-md-12 text-center" }, [
+          _c("h5", [
+            _vm._v(
+              "CONTRATO DE CESSÃO DE QUOTAS DO PROJETO\n                    "
+            ),
+            _c("br"),
+            _vm._v(
+              " “" + _vm._s(_vm.proponente.projetos) + "”\n                "
+            )
+          ])
+        ])
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-10" }, [
           _c("p", [
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v(
-                "PASANAKU FAMILIA FELIZ- INCORPORACAO, CONSTRUCAO, CREDITOS MUTUOS, \n    ADMINISTRACAO DE FUNDOS E CORRESPONDENTE BANCARIO LTDA "
+                "\n              PASANAKU FAMILIA FELIZ- INCORPORACAO, CONSTRUCAO, CREDITOS MUTUOS,\n              ADMINISTRACAO DE FUNDOS E CORRESPONDENTE BANCARIO LTDA\n            "
               )
             ]),
             _vm._v(
-              ", CNPJ n. 28.616.397/0001-60 \n    com sede em Rua Doutor Costa Valente, 217 – 2 º andar – Brás – São Paulo – SP – CEP: 03052-000, \n    neste ato representada por Bladimir Mamani Chuquimia, portador do RNE número Y266740-F e inscrito \n    no CPF número 227.355.598-90 e Jaime Wilston Mamani Chuquimi portador do RNE Y269466-V e inscrito \n    no CPF número 227.370.898-08, ambos diretores da empresa acima qualificada, doravante denominados \n    "
+              ", CNPJ n. 28.616.397/0001-60 com sede em Rua Doutor Costa Valente, 217 – 2 º andar – Brás – São Paulo – SP – CEP: 03052-000, neste ato representada por Bladimir Mamani Chuquimia, portador do RNE número Y266740-F\n                    e inscrito no CPF número 227.355.598-90 e Jaime Wilston Mamani Chuquimi portador do RNE Y269466-V e inscrito no CPF número 227.370.898-08, ambos diretores da empresa acima qualificada, doravante denominados\n                    "
             ),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("ADMINISTRADORES")
             ]),
             _vm._v(
-              ", e de outro \n    lado " +
+              " , e de outro lado " +
                 _vm._s(_vm.proponente.nome) +
-                " , nacionalidade _____________, \n    profissão  ___________________, portador do RNE número " +
+                ", data de nascimento, " +
+                _vm._s(_vm.proponente.data_nascimento) +
+                " ,nacionalidade " +
+                _vm._s(_vm.proponente.nacionalidade) +
+                ", estado civil: " +
+                _vm._s(_vm.proponente.estado_civil) +
+                ",\n                    profissão " +
+                _vm._s(_vm.proponente.profissao) +
+                ", portador do RNE número " +
                 _vm._s(_vm.proponente.rne) +
-                "  e inscrito \n    no CPF número " +
+                " e inscrito no CPF número " +
                 _vm._s(_vm.proponente.cpf) +
-                " , residente \n    em  " +
+                " , residente em " +
                 _vm._s(_vm.proponente.logradouro) +
                 ", n° " +
                 _vm._s(_vm.proponente.numero) +
                 ", bairro: " +
                 _vm._s(_vm.proponente.bairro) +
-                " - \n    CEP: " +
+                " - CEP: " +
                 _vm._s(_vm.proponente.cep) +
-                "  \n    doravante denominada APORTADOR, sendo assim, firma- se o presente CONTRATO DE CESSÃO \n    DE QUOTAS DO PROJETO “ ”, conforme as cláusulas a seguir:\n\n"
+                ",complemento:\n                    " +
+                _vm._s(_vm.proponente.complemento) +
+                ", telefones: " +
+                _vm._s(_vm.proponente.celular) +
+                " - " +
+                _vm._s(_vm.proponente.telefone) +
+                ", E-MAIL: " +
+                _vm._s(_vm.proponente.email) +
+                ", doravante denominada "
+            ),
+            _c("span", { staticClass: "font-weight-bold" }, [
+              _vm._v("APORTADOR")
+            ]),
+            _vm._v(
+              ", sendo assim, firma- se o presente CONTRATO\n                    DE CESSÃO DE QUOTAS DO PROJETO “" +
+                _vm._s(_vm.proponente.projetos) +
+                "”, conforme as cláusulas a seguir:\n                    "
             ),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(" "),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("Cláusula 1ª – Do Objeto do Contrato")
             ]),
+            _vm._v(" "),
             _c("br"),
-            _vm._v("\nPor meio deste contrato, que firmam entre si os "),
+            _vm._v(
+              "Por meio deste contrato, que firmam entre si os\n                    "
+            ),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("ADMINISTRADORES")
             ]),
-            _vm._v("\n e o "),
+            _vm._v(" e o "),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("APORTADOR")
             ]),
             _vm._v(
-              ", \nregula–se a transferência \nde " +
+              ", regula–se a transferência de " +
                 _vm._s(_vm.proponente.valor_aporte) +
-                " (________________) quotas de titularidade dos Administradores.\n\n"
+                " quotas de titularidade dos Administradores.\n                    "
             ),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
-            _vm._v("\n§ 1º O "),
+            _vm._v("§ 1º O\n                    "),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("APORTADOR")
             ]),
-            _vm._v(" declara, ainda estar ciente sobre \no projeto “ ” .\n\n"),
+            _vm._v(
+              " declara, ainda estar ciente sobre o projeto “ " +
+                _vm._s(_vm.proponente.projetos) +
+                "”.\n                    "
+            ),
             _c("br"),
+            _vm._v(
+              " O tipo de pagamento será do tipo: " +
+                _vm._s(_vm.proponente.forma_pagamento) +
+                "\n                    "
+            ),
+            _c("br"),
+            _vm._v(" "),
+            _vm.proponente.transferencia
+              ? _c("span", [
+                  _vm._v(
+                    "O pagamento será feito atravez de transferência: " +
+                      _vm._s(_vm.proponente.transferencia)
+                  )
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
+            _vm.proponente.deposito
+              ? _c("span", [
+                  _vm._v(
+                    "O pagamento será feito atravez de deposito: " +
+                      _vm._s(_vm.proponente.deposito)
+                  )
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              " Observações: " +
+                _vm._s(_vm.proponente.observacoes) +
+                "\n                    "
+            ),
+            _c("br"),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(" "),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("Cláusula 2ª – Do Valor")
             ]),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\nPara a transferência das quotas, as partes ajustam o valor certo de " +
+              " Para a transferência das quotas, as partes ajustam o valor certo de " +
                 _vm._s(_vm.proponente.valor_aporte) +
-                " \n(___________________), valor a ser aportado nas seguintes condições:\n___________________________________\n\n"
+                ", valor a ser aportado nas seguintes condições: ___________________________________\n                    "
             ),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(" "),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("Cláusula 3ª – Da Transferência Definitiva das Quotas")
             ]),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\nAs partes se comprometem reciprocamente a acompanhar todos os encaminhamentos do projeto e \nfornecer todos os documentos necessários  para seu registro na Junta Comercial. \n\n"
+              " As partes se comprometem reciprocamente a acompanhar todos os encaminhamentos do projeto e fornecer todos os documentos necessários para seu registro na Junta Comercial.\n                    "
             ),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(" "),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("Cláusula 4ª – Dos Direitos e Obrigações")
             ]),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\nOs ADMINISTRADORES:\nA)Transferir as quotas livres e desembaraçadas de qualquer ônus;\nB)Informar o APORTADOR sobre qualquer ônus reais, judiciais ou extrajudiciais ou quaisquer \noutros fatos, ações ou medidas administrativas que possam por ventura atingir as quotas cedidas;\nC)Realizar as diligencias e prestar toda a assistência ao APORTADOR para a transferência \ndefinitiva das quotas.\nO APORTADOR:\nA)Adimplir suas obrigações no tempo e modo acordados neste contrato;\nB)Fornecer todos os documentos pessoais para a transferência;\nC)Informar os administradores sobre a insolvência civil, recuperação judicial ou extrajudicial, \nfalência ou de qualquer ação ou execução declarada contra si.\n\n"
+              " Os ADMINISTRADORES: A)Transferir as quotas livres e desembaraçadas de qualquer ônus; B)Informar o APORTADOR sobre qualquer ônus reais, judiciais ou extrajudiciais ou quaisquer outros fatos, ações ou medidas administrativas que\n                    possam por ventura atingir as quotas cedidas; C)Realizar as diligencias e prestar toda a assistência ao APORTADOR para a transferência definitiva das quotas. O APORTADOR: A)Adimplir suas obrigações no tempo e modo acordados neste contrato;\n                    B)Fornecer todos os documentos pessoais para a transferência; C)Informar os administradores sobre a insolvência civil, recuperação judicial ou extrajudicial, falência ou de qualquer ação ou execução declarada contra si.\n                    "
             ),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(" "),
             _c("span", { staticClass: "font-weight-bold" }, [
@@ -16308,62 +16391,64 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\na)O APORTADOR terá a rentabilidade de 1 % ao mês até a viabilidade da empresa.\n\n"
+              " a)O APORTADOR terá a rentabilidade de 1 % ao mês até a viabilidade da empresa.\n                    "
             ),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\nb)O APORTADOR terá sua participação nos lucros após o período de rentabilidade.\n\n"
+              " b)O APORTADOR terá sua participação nos lucros após o período de rentabilidade.\n                    "
             ),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(" "),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("Cláusula 6ª – Da Desistência")
             ]),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\n\nOs administradores se comprometem a devolver o valor aportado integralmente em caso de \ndesistência por parte do APORTADOR, \n"
+              "Os administradores se comprometem a devolver o valor aportado integralmente em caso de desistência por parte do APORTADOR,\n                    "
             ),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v(
-                "desde que comunicado com 60 dias de antecedência e \npor escrito aos ADMINISTRADORES."
+                "\n              desde que comunicado com 60 dias de antecedência e\n              por escrito aos ADMINISTRADORES.\n            "
               )
             ]),
             _vm._v(" "),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\n\nPor estarem cientes, as partes assinam em duas vias o presente instrumento particular na \npresença de duas testemunhas.\n"
+              "Por estarem cientes, as partes assinam em duas vias o presente instrumento particular na presença de duas testemunhas.\n                    "
             ),
             _c("br"),
+            _vm._v(" "),
             _c("br"),
             _vm._v(
-              "\nSão Paulo ___ de ___________________ de __________.\n\n                    "
+              " São Paulo ___ de ___________________ de __________.\n                "
             )
           ])
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "row  row-space  justify-content-center" }, [
-        _vm._m(1),
+      _c("div", { staticClass: "row row-space justify-content-center" }, [
+        _vm._m(0),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-5 text-right" }, [
-          _vm._v("\n                    _________________________ "),
+          _vm._v("_________________________\n                "),
           _c("br"),
-          _vm._v("\n                    " + _vm._s(_vm.proponente.nome) + " "),
+          _vm._v(" " + _vm._s(_vm.proponente.nome) + "\n                "),
           _c("br"),
-          _vm._v(
-            "\n                    " +
-              _vm._s(_vm.proponente.cpf) +
-              " \n                "
-          )
+          _vm._v(" " + _vm._s(_vm.proponente.cpf) + "\n            ")
         ])
       ]),
       _vm._v(" "),
-      _vm._m(2),
+      _vm._m(1),
       _vm._v(" "),
       _c("div", { staticClass: "row row-space justify-content-center" }, [
         _c("div", { staticClass: "col-md-10 text-right" }, [
@@ -16389,49 +16474,29 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row row-space" }, [
-      _c("div", { staticClass: "col-md-12 text-center" }, [
-        _c("h5", [
-          _vm._v(
-            "\n                        CONTRATO DE CESSÃO DE QUOTAS DO PROJETO "
-          ),
-          _c("br"),
-          _vm._v("“_____”\n                    ")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-5" }, [
-      _vm._v("\n                    ___________________________\t"),
+      _vm._v("___________________________\n                "),
       _c("br"),
-      _vm._v("\n                    Pasanaku Familia Feliz "),
+      _vm._v("Pasanaku Familia Feliz\n                "),
       _c("br"),
-      _vm._v(
-        "   \n                    CNPJ: 28.616.397/0001-60\n                "
-      )
+      _vm._v("CNPJ: 28.616.397/0001-60\n            ")
     ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row row-space  justify-content-center" }, [
+    return _c("div", { staticClass: "row row-space justify-content-center" }, [
       _c("div", { staticClass: "col-md-5" }, [
-        _vm._v("\n                ___________________________\t\t"),
+        _vm._v("___________________________\n                "),
         _c("br"),
-        _vm._v(
-          "\t\t\n                TESTEMUNHA 1\t\t\t\t\t\t                        \n                "
-        )
+        _vm._v("TESTEMUNHA 1\n            ")
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-5 text-right" }, [
-        _vm._v("\n                    _________________________ "),
+        _vm._v("_________________________\n                "),
         _c("br"),
-        _vm._v("\n                    TESTEMUNHA 2 \n                ")
+        _vm._v("TESTEMUNHA 2\n            ")
       ])
     ])
   }
@@ -16682,6 +16747,56 @@ var render = function() {
                 return
               }
               _vm.$set(_vm.inputs, "telefone", $event.target.value)
+            }
+          }
+        })
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
+      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.profissao,
+              expression: "inputs.profissao"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: { type: "text", placeholder: "Profissão" },
+          domProps: { value: _vm.inputs.profissao },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "profissao", $event.target.value)
+            }
+          }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.nacionalidade,
+              expression: "inputs.nacionalidade"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: { type: "text", placeholder: "Nacionalidade" },
+          domProps: { value: _vm.inputs.nacionalidade },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "nacionalidade", $event.target.value)
             }
           }
         })
