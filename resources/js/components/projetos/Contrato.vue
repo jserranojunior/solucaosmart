@@ -24,22 +24,26 @@
                         <br>
                         <span class="font-weight-bold">Cláusula 1ª – Do Objeto do Contrato</span>
                         <br>Por meio deste contrato, que firmam entre si os
-                        <span class="font-weight-bold">ADMINISTRADORES</span> e o <span class="font-weight-bold">APORTADOR</span>, regula–se a transferência de {{proponente.valor_aporte}} quotas de titularidade dos Administradores.
+                        <span class="font-weight-bold">ADMINISTRADORES</span> e o <span class="font-weight-bold">APORTADOR</span>, regula–se a transferência de {{proponente.valor_aporte}} ({{valor_extenso}}) quotas de titularidade dos Administradores.
                         <br>
                         <br>§ 1º O
                         <span class="font-weight-bold">APORTADOR</span> declara, ainda estar ciente sobre o projeto “ {{proponente.projetos}}”.
-                        <br> O tipo de pagamento será do tipo: {{proponente.forma_pagamento}}
-                        <br>
-                        <span v-if="proponente.transferencia">O pagamento será feito atravez de transferência: {{proponente.transferencia}}</span>
-                        <br>
-                        <span v-if="proponente.deposito">O pagamento será feito atravez de deposito: {{proponente.deposito}}</span>
-                        <br><br> Observações: {{proponente.observacoes}}
-                        <br>
+  
     
                         <br>
                         <br>
                         <span class="font-weight-bold">Cláusula 2ª – Do Valor</span>
-                        <br> Para a transferência das quotas, as partes ajustam o valor certo de {{proponente.valor_aporte}}, valor a ser aportado nas seguintes condições: ___________________________________
+                        <br> Para a transferência das quotas, as partes ajustam 
+                        o valor certo de {{proponente.valor_aporte}} ({{valor_extenso}}), 
+                        valor a ser aportado nas seguintes condições:
+                        <br>
+
+                                              <br> O tipo de pagamento será do tipo: {{proponente.forma_pagamento}}
+                        
+                        <span v-if="proponente.transferencia">O pagamento será feito atravez de transferência: {{proponente.transferencia}}</span>
+                        <br>
+                        <span v-if="proponente.deposito">O pagamento será feito atravez de deposito: {{proponente.deposito}}</span>
+                        <br>Observações: {{proponente.observacoes}}
                         <br>
                         <br>
                         <span class="font-weight-bold">Cláusula 3ª – Da Transferência Definitiva das Quotas</span>
@@ -47,25 +51,42 @@
                         <br>
                         <br>
                         <span class="font-weight-bold">Cláusula 4ª – Dos Direitos e Obrigações</span>
-                        <br> Os ADMINISTRADORES: A)Transferir as quotas livres e desembaraçadas de qualquer ônus; B)Informar o APORTADOR sobre qualquer ônus reais, judiciais ou extrajudiciais ou quaisquer outros fatos, ações ou medidas administrativas que
-                        possam por ventura atingir as quotas cedidas; C)Realizar as diligencias e prestar toda a assistência ao APORTADOR para a transferência definitiva das quotas. O APORTADOR: A)Adimplir suas obrigações no tempo e modo acordados neste contrato;
-                        B)Fornecer todos os documentos pessoais para a transferência; C)Informar os administradores sobre a insolvência civil, recuperação judicial ou extrajudicial, falência ou de qualquer ação ou execução declarada contra si.
+                        <br> Os ADMINISTRADORES: 
+                        <br>A)Transferir as quotas livres e desembaraçadas de qualquer ônus; 
+                        <br>B)Informar o APORTADOR sobre qualquer ônus reais, judiciais ou extrajudiciais ou quaisquer outros fatos, ações ou medidas administrativas que
+                        possam por ventura atingir as quotas cedidas; 
+                        <br>C)Realizar as diligencias e prestar toda a assistência ao APORTADOR para a transferência definitiva das quotas. 
+                        
+                        <br>O APORTADOR: 
+                        <br>A)Adimplir suas obrigações no tempo e modo acordados neste contrato;
+                        <br>B)Fornecer todos os documentos pessoais para a transferência; 
+                        <br>C)Informar os administradores sobre a insolvência civil, recuperação judicial ou extrajudicial, falência ou de qualquer ação ou execução declarada contra si.
                         <br>
                         <br>
                         <span class="font-weight-bold">Cláusula 5ª – Dos Rendimentos</span>
     
                         <br>
-                        <br> a)O APORTADOR terá a rentabilidade de 1 % ao mês até a viabilidade da empresa.
+                        <br> a)<span class="font-weight-bold"> O APORTADOR</span> terá a rentabilidade de 1 % ao mês até a viabilidade da empresa.
+                        <br> b)<span class="font-weight-bold"> O APORTADOR</span> terá a rentabilidade de 3% ao mês no período de 24 meses após a sua contemplação.
+                        <br> c) Após os períodos acima descritos <span class="font-weight-bold"> O APORTADOR</span> terá a participação nos lucros do projeto de acordo com as quotas adquiridas.
+                        <br> d)<span class="font-weight-bold"> O APORTADOR</span> receberá suas rentabilidades a cada 12 meses, o lucro será mensalmente.
                         <br>
-                        <br> b)O APORTADOR terá sua participação nos lucros após o período de rentabilidade.
                         <br>
-                        <br>
-                        <span class="font-weight-bold">Cláusula 6ª – Da Desistência</span>
+
+                         <span class="font-weight-bold">Cláusula 6ª – Da Desistência</span>
                         <br>Os administradores se comprometem a devolver o valor aportado integralmente em caso de desistência por parte do APORTADOR,
                         <span class="font-weight-bold">
                   desde que comunicado com 60 dias de antecedência e
                   por escrito aos ADMINISTRADORES.
                 </span>
+<br>
+<br>
+  <span class="font-weight-bold">Cláusula 7ª – Dos Rendimentos</span>
+                        <br>O valor descrito na Cláusula 2º, será {{proponente.forma_pagamento}}.
+
+
+
+
                         <br>
                         <br>Por estarem cientes, as partes assinam em duas vias o presente instrumento particular na presença de duas testemunhas.
                         <br>
@@ -80,16 +101,18 @@
                 </div>
     
                 <div class="col-md-5 text-right">_________________________
-                    <br> {{proponente.nome}}
-                    <br> {{proponente.cpf}}
+                    <br> Nome: {{proponente.nome}}
+                    <br> CPF: {{proponente.cpf}}
                 </div>
             </div>
             <div class="row row-space justify-content-center">
                 <div class="col-md-5">___________________________
-                    <br>TESTEMUNHA 1
+                    <br>David Oliveira de Lira
+                    <br>CPF: 091.702.348-09
                 </div>
                 <div class="col-md-5 text-right">_________________________
-                    <br>TESTEMUNHA 2
+                    <br>Grace Shella Zevallos
+                    <br>CPF: 233.725.518-26
                 </div>
             </div>
     
@@ -104,11 +127,14 @@
 
 <script>
 import { mapState } from "vuex";
+var extenso = require('extenso')
+
 export default {
     name: "Contrato",
     data(){
         return{
             body:'',
+            valor_extenso:''
         }
     },
     computed: {
@@ -117,6 +143,7 @@ export default {
         })
     },
     mounted() {
+        this.valor_extenso = extenso(this.proponente.valor_aporte);
         console.log(this.proponente.nome);
         this.body = `<div class="container"></div>`
     },
