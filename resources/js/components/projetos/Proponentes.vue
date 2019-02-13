@@ -5,6 +5,27 @@
                  <h4>PROPONENTES</h4>
              </div>
          </div>
+
+
+<div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <select class="form-control" v-model="inputs.projetos">
+                     <option value="" disabled>Projetos</option>
+                     <option>Big Casa & Construção</option>
+                    <option>GBE Modas</option>
+<option>Farmácia Farmelhor</option>
+<option>Supermercado</option>
+<option>Posto de Gasolina</option>
+<option>Clínica Médica</option>
+<option>Instituição de Ensino</option>
+<option>Loja de Sapato</option>
+<option>Loja de Roupa</option>
+<option>Papelaria</option>
+<option>Incorporadora</option>
+                 </select>
+             </div>             
+         </div>
+
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-4 col-md-8">
                  <input type="text" v-model="inputs.nome" class="form-control" placeholder="Nome Completo"> 
@@ -87,24 +108,6 @@
              </div>
          </div>
 
-<div class="row row-space-form justify-content-center">
-             <div class="col-lg-4 col-md-8">
-                 <select class="form-control" v-model="inputs.projetos">
-                     <option value="" disabled>Projetos</option>
-                     <option>Big Casa & Construção</option>
-                    <option>GBE Modas</option>
-<option>Farmácia Farmelhor</option>
-<option>Supermercado</option>
-<option>Posto de Gasolina</option>
-<option>Clínica Médica</option>
-<option>Instituição de Ensino</option>
-<option>Loja de Sapato</option>
-<option>Loja de Roupa</option>
-<option>Papelaria</option>
-<option>Incorporadora</option>
-                 </select>
-             </div>             
-         </div>
 
 
 

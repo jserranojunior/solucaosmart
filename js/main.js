@@ -14248,6 +14248,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -16655,6 +16658,69 @@ var render = function() {
     _vm._v(" "),
     _c("div", { staticClass: "row row-space-form justify-content-center" }, [
       _c("div", { staticClass: "col-lg-4 col-md-8" }, [
+        _c(
+          "select",
+          {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.inputs.projetos,
+                expression: "inputs.projetos"
+              }
+            ],
+            staticClass: "form-control",
+            on: {
+              change: function($event) {
+                var $$selectedVal = Array.prototype.filter
+                  .call($event.target.options, function(o) {
+                    return o.selected
+                  })
+                  .map(function(o) {
+                    var val = "_value" in o ? o._value : o.value
+                    return val
+                  })
+                _vm.$set(
+                  _vm.inputs,
+                  "projetos",
+                  $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+                )
+              }
+            }
+          },
+          [
+            _c("option", { attrs: { value: "", disabled: "" } }, [
+              _vm._v("Projetos")
+            ]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Big Casa & Construção")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("GBE Modas")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Farmácia Farmelhor")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Supermercado")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Posto de Gasolina")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Clínica Médica")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Instituição de Ensino")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Loja de Sapato")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Loja de Roupa")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Papelaria")]),
+            _vm._v(" "),
+            _c("option", [_vm._v("Incorporadora")])
+          ]
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
+      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
         _c("input", {
           directives: [
             {
@@ -17080,69 +17146,6 @@ var render = function() {
             }
           }
         })
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
-      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
-        _c(
-          "select",
-          {
-            directives: [
-              {
-                name: "model",
-                rawName: "v-model",
-                value: _vm.inputs.projetos,
-                expression: "inputs.projetos"
-              }
-            ],
-            staticClass: "form-control",
-            on: {
-              change: function($event) {
-                var $$selectedVal = Array.prototype.filter
-                  .call($event.target.options, function(o) {
-                    return o.selected
-                  })
-                  .map(function(o) {
-                    var val = "_value" in o ? o._value : o.value
-                    return val
-                  })
-                _vm.$set(
-                  _vm.inputs,
-                  "projetos",
-                  $event.target.multiple ? $$selectedVal : $$selectedVal[0]
-                )
-              }
-            }
-          },
-          [
-            _c("option", { attrs: { value: "", disabled: "" } }, [
-              _vm._v("Projetos")
-            ]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Big Casa & Construção")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("GBE Modas")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Farmácia Farmelhor")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Supermercado")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Posto de Gasolina")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Clínica Médica")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Instituição de Ensino")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Loja de Sapato")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Loja de Roupa")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Papelaria")]),
-            _vm._v(" "),
-            _c("option", [_vm._v("Incorporadora")])
-          ]
-        )
       ])
     ]),
     _vm._v(" "),
