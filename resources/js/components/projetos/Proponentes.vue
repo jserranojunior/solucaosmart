@@ -58,6 +58,16 @@
              </div>
          </div>
 
+
+        <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.rg" class="form-control" placeholder="RG">                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.cedula_identidade" class="form-control" placeholder="Cédula de Identidade">
+             </div>
+         </div>
+
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-2 col-md-4">
                  <input type="text" v-model="inputs.celular" v-mask="'(99)99999-9999'" class="form-control" placeholder="Celular">
@@ -108,6 +118,14 @@
              </div>
          </div>
 
+  <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.cidade" class="form-control" placeholder="Cidade">                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.estado" class="form-control" placeholder="Estado">
+             </div>
+         </div>
 
 
 
