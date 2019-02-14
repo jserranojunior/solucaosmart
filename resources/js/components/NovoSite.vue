@@ -4,7 +4,7 @@
             <div class="">
 <div class="row justify-content-center">
     <div class="col-12 text-center">
-        <img  src="/solucaosmart/img/novosite.jpeg" class="img-center" alt="">
+        <img  src="/img/novosite.jpeg" class="img-center" alt="">
     </div>
 </div>
     </div>
