@@ -33950,7 +33950,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-12 text-center" }, [
             _c("img", {
               staticClass: "img-center",
-              attrs: { src: "/solucaosmart/img/novosite.jpeg", alt: "" }
+              attrs: { src: "/img/novosite.jpeg", alt: "" }
             })
           ])
         ])
