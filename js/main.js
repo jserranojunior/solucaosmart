@@ -50679,7 +50679,7 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [{
   path: '/',
   name: 'home',
-  component: _components_Home__WEBPACK_IMPORTED_MODULE_0__["default"]
+  component: _components_NovoSite__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, {
   path: '/projetos',
   name: 'projetos',
@@ -50691,7 +50691,7 @@ var routes = [{
 }, {
   path: '/novosite',
   name: 'novosite',
-  component: _components_NovoSite__WEBPACK_IMPORTED_MODULE_3__["default"]
+  component: _components_Home__WEBPACK_IMPORTED_MODULE_0__["default"]
 }];
 /* harmony default export */ __webpack_exports__["default"] = (routes);
 

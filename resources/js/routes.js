@@ -1,10 +1,10 @@
 
 
 
-import Home from './components/Home'
+import NovoSite from './components/Home'
 import Proponentes from  './components/projetos/Proponentes'
 import Contrato from  './components/projetos/Contrato'
-import NovoSite from  './components/NovoSite'
+import Home from  './components/NovoSite'
 
 
 const routes = [
