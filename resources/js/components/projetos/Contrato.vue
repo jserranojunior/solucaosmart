@@ -119,7 +119,7 @@
                 </div>
             </div>
     
-            <div class="row row-space justify-content-center">
+            <div class="row row-space justify-content-center no-print">
                 <div class="col-md-10 text-right">
                     <div class="btn btn-primary" @click="print()">IMPRIMIR</div>
                 </div>
@@ -178,4 +178,12 @@ export default {
 
 <style scoped>
 
+@media print {
+* {
+    font-size: 14px! important;
+}
+.no-print{
+    display: none
+}
+}
 </style>

@@ -19,6 +19,7 @@ class EmailController extends Controller
        //return view('emails.bodymails')->with($dados);
 
         Mail::send('emails.bodymails', $dados, function($message){
+            // $message->to('contato@solucaosmart.com');
             $message->to('contato@solucaosmart.com');
             $message->subject('E-mail enviado pelo site da Solucão Smart');
         });
