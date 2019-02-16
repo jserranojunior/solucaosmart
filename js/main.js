@@ -14074,6 +14074,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
 
 
 var extenso = __webpack_require__(/*! extenso */ "./node_modules/extenso/dist/extenso.min.js");
@@ -14401,7 +14402,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n@media print {\n*[data-v-786c6300] {\n    font-size: 14px! important;\n}\n.no-print[data-v-786c6300]{\n    display: none\n}\n}\n", ""]);
+exports.push([module.i, "\n@media print {\n*[data-v-786c6300] {\n        font-size: 18px ! important;\n}\n.no-print[data-v-786c6300] {\n        display: none\n}\n}\n", ""]);
 
 // exports
 
@@ -34034,26 +34035,29 @@ var render = function() {
         _c("div", { staticClass: "col-md-12 text-center" }, [
           _c("h5", [
             _vm._v(
-              "CONTRATO DE CESSÃO DE QUOTAS DO PROJETO\n                        "
+              "CONTRATO DE CESSÃO DE QUOTAS DO PROJETO\n                    "
             ),
             _c("br"),
-            _vm._v(
-              " “" + _vm._s(_vm.proponente.projetos) + "”\n                    "
-            )
+            _vm._v(" “" + _vm._s(_vm.proponente.projetos) + "” "),
+            _c("br"),
+            _c("br"),
+            _c("br"),
+            _c("br"),
+            _c("br")
           ])
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-10" }, [
+      _c("div", { staticClass: "row justify-content-center text-justify" }, [
+        _c("div", { staticClass: "col-md-10 text-justify" }, [
           _c("p", [
-            _c("span", { staticClass: "font-weight-bold" }, [
+            _c("span", { staticClass: "font-weight-bold text-justify" }, [
               _vm._v(
                 "\n                  PASANAKU FAMILIA FELIZ- INCORPORACAO, CONSTRUCAO, CREDITOS MUTUOS,\n                  ADMINISTRACAO DE FUNDOS E CORRESPONDENTE BANCARIO LTDA\n                "
               )
             ]),
             _vm._v(
-              ", CNPJ n. 28.616.397/0001-60 com sede em Rua Doutor Costa Valente, 217 – 2 º andar – Brás – São Paulo – SP – CEP: 03052-000, neste ato representada por Bladimir Mamani Chuquimia, portador do RNE número Y266740-F\n                        e inscrito no CPF número 227.355.598-90 e Jaime Wilston Mamani Chuquimia portador do RNE Y269466-V e inscrito no CPF número 227.370.898-08, ambos diretores da empresa acima qualificada, doravante denominados\n                        "
+              ", CNPJ n. 28.616.397/0001-60 com sede em Rua Doutor Costa Valente, 217 – 2 º andar – Brás – São Paulo – SP – CEP: 03052-000, neste ato representada por Bladimir Mamani Chuquimia, portador do RNE número Y266740-F\n                    e inscrito no CPF número 227.355.598-90 e Jaime Wilston Mamani Chuquimia portador do RNE Y269466-V e inscrito no CPF número 227.370.898-08, ambos diretores da empresa acima qualificada, doravante denominados\n                    "
             ),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("ADMINISTRADORES")
@@ -34067,13 +34071,13 @@ var render = function() {
                 _vm._s(_vm.proponente.nacionalidade) +
                 ", estado civil: " +
                 _vm._s(_vm.proponente.estado_civil) +
-                ",\n                        profissão " +
+                ",\n                    profissão " +
                 _vm._s(_vm.proponente.profissao) +
                 ", portador do RNE número " +
                 _vm._s(_vm.proponente.rne) +
                 ", RG: " +
                 _vm._s(_vm.proponente.rg) +
-                ", \n                        "
+                ",\n                    "
             ),
             _vm.proponente.cedula_identidade
               ? _c("span", [
@@ -34084,21 +34088,21 @@ var render = function() {
                 ])
               : _vm._e(),
             _vm._v(
-              "\n                         e inscrito no CPF número " +
+              " e inscrito no CPF número " +
                 _vm._s(_vm.proponente.cpf) +
                 " , residente em " +
                 _vm._s(_vm.proponente.logradouro) +
                 ", n° " +
                 _vm._s(_vm.proponente.numero) +
-                ", \n                         bairro: " +
+                ", bairro: " +
                 _vm._s(_vm.proponente.bairro) +
-                " - Cidade: " +
+                "\n                    - Cidade: " +
                 _vm._s(_vm.proponente.cidade) +
                 ", Estado " +
                 _vm._s(_vm.proponente.estado) +
                 " - CEP: " +
                 _vm._s(_vm.proponente.cep) +
-                ",complemento:\n                        " +
+                ",complemento: " +
                 _vm._s(_vm.proponente.complemento) +
                 ", telefones: " +
                 _vm._s(_vm.proponente.celular) +
@@ -34106,15 +34110,15 @@ var render = function() {
                 _vm._s(_vm.proponente.telefone) +
                 ", E-mail: " +
                 _vm._s(_vm.proponente.email) +
-                ", doravante denominada "
+                ", doravante denominada\n                    "
             ),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("APORTADOR")
             ]),
             _vm._v(
-              ", sendo assim, firma- se o presente CONTRATO\n                        DE CESSÃO DE QUOTAS DO PROJETO “" +
+              ", sendo assim, firma- se o presente CONTRATO DE CESSÃO DE QUOTAS DO PROJETO “" +
                 _vm._s(_vm.proponente.projetos) +
-                "”, conforme as cláusulas a seguir:\n                        "
+                "”, conforme as cláusulas a seguir:\n                    "
             ),
             _c("br"),
             _vm._v(" "),
@@ -34126,7 +34130,7 @@ var render = function() {
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              "Por meio deste contrato, que firmam entre si os\n                        "
+              "Por meio deste contrato, que firmam entre si os\n                    "
             ),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("ADMINISTRADORES")
@@ -34136,23 +34140,23 @@ var render = function() {
               _vm._v("APORTADOR")
             ]),
             _vm._v(
-              ", regula–se a transferência de R$" +
+              ", regula–se a transferência de " +
                 _vm._s(_vm.proponente.valor_aporte) +
                 " (" +
                 _vm._s(_vm.valor_extenso) +
-                ") quotas de titularidade dos Administradores.\n                        "
+                ") quotas de titularidade dos Administradores.\n                    "
             ),
             _c("br"),
             _vm._v(" "),
             _c("br"),
-            _vm._v("§ 1º O\n                        "),
+            _vm._v("§ 1º O\n                    "),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v("APORTADOR")
             ]),
             _vm._v(
               " declara, ainda estar ciente sobre o projeto “ " +
                 _vm._s(_vm.proponente.projetos) +
-                "”.\n  \n    \n                        "
+                "”.\n\n\n                    "
             ),
             _c("br"),
             _vm._v(" "),
@@ -34164,11 +34168,11 @@ var render = function() {
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              " Para a transferência das quotas, as partes ajustam \n                        o valor certo de R$" +
+              " Para a transferência das quotas, as partes ajustam o valor certo de R$" +
                 _vm._s(_vm.proponente.valor_aporte) +
                 " (" +
                 _vm._s(_vm.valor_extenso) +
-                "), \n                        valor a ser aportado nas seguintes condições:\n                        "
+                " de reais), valor a ser aportado nas seguintes condições:\n                    "
             ),
             _c("br"),
             _vm._v(" "),
@@ -34176,7 +34180,7 @@ var render = function() {
             _vm._v(
               " O tipo de pagamento será do tipo: " +
                 _vm._s(_vm.proponente.forma_pagamento) +
-                "\n                        \n                        "
+                "\n\n                    "
             ),
             _vm.proponente.transferencia
               ? _c("span", [
@@ -34202,7 +34206,7 @@ var render = function() {
             _vm._v(
               "Observações: " +
                 _vm._s(_vm.proponente.observacoes) +
-                "\n                        "
+                "\n                    "
             ),
             _c("br"),
             _vm._v(" "),
@@ -34214,7 +34218,7 @@ var render = function() {
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              " As partes se comprometem reciprocamente a acompanhar todos os encaminhamentos do projeto e fornecer todos os documentos necessários para seu registro na Junta Comercial.\n                        "
+              " As partes se comprometem reciprocamente a acompanhar todos os encaminhamentos do projeto e fornecer todos os documentos necessários para seu registro na Junta Comercial.\n                    "
             ),
             _c("br"),
             _vm._v(" "),
@@ -34225,32 +34229,32 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("br"),
-            _vm._v(" Os ADMINISTRADORES: \n                        "),
+            _vm._v(" Os ADMINISTRADORES:\n                    "),
             _c("br"),
             _vm._v(
-              "A)Transferir as quotas livres e desembaraçadas de qualquer ônus; \n                        "
+              "A)Transferir as quotas livres e desembaraçadas de qualquer ônus;\n                    "
             ),
             _c("br"),
             _vm._v(
-              "B)Informar o APORTADOR sobre qualquer ônus reais, judiciais ou extrajudiciais ou quaisquer outros fatos, ações ou medidas administrativas que\n                        possam por ventura atingir as quotas cedidas; \n                        "
+              "B)Informar o APORTADOR sobre qualquer ônus reais, judiciais ou extrajudiciais ou quaisquer outros fatos, ações ou medidas administrativas que possam por ventura atingir as quotas cedidas;\n                    "
             ),
             _c("br"),
             _vm._v(
-              "C)Realizar as diligencias e prestar toda a assistência ao APORTADOR para a transferência definitiva das quotas. \n                        \n                        "
+              "C)Realizar as diligencias e prestar toda a assistência ao APORTADOR para a transferência definitiva das quotas.\n\n                    "
             ),
             _c("br"),
-            _vm._v("O APORTADOR: \n                        "),
+            _vm._v("O APORTADOR:\n                    "),
             _c("br"),
             _vm._v(
-              "A)Adimplir suas obrigações no tempo e modo acordados neste contrato;\n                        "
-            ),
-            _c("br"),
-            _vm._v(
-              "B)Fornecer todos os documentos pessoais para a transferência; \n                        "
+              "A)Adimplir suas obrigações no tempo e modo acordados neste contrato;\n                    "
             ),
             _c("br"),
             _vm._v(
-              "C)Informar os administradores sobre a insolvência civil, recuperação judicial ou extrajudicial, falência ou de qualquer ação ou execução declarada contra si.\n                        "
+              "B)Fornecer todos os documentos pessoais para a transferência;\n                    "
+            ),
+            _c("br"),
+            _vm._v(
+              "C)Informar os administradores sobre a insolvência civil, recuperação judicial ou extrajudicial, falência ou de qualquer ação ou execução declarada contra si.\n                    "
             ),
             _c("br"),
             _vm._v(" "),
@@ -34268,7 +34272,7 @@ var render = function() {
               _vm._v(" O APORTADOR")
             ]),
             _vm._v(
-              " terá a rentabilidade de 1 % ao mês até a viabilidade da empresa.\n                        "
+              " terá a rentabilidade de 1 % ao mês até a viabilidade da empresa.\n                    "
             ),
             _c("br"),
             _vm._v(" b)"),
@@ -34276,7 +34280,7 @@ var render = function() {
               _vm._v(" O APORTADOR")
             ]),
             _vm._v(
-              " terá a rentabilidade de 3% ao mês no período de 24 meses após a sua contemplação.\n                        "
+              " terá a rentabilidade de 3% ao mês no período de 24 meses após a sua contemplação.\n                    "
             ),
             _c("br"),
             _vm._v(" c) Após os períodos acima descritos "),
@@ -34284,7 +34288,7 @@ var render = function() {
               _vm._v(" O APORTADOR")
             ]),
             _vm._v(
-              " terá a participação nos lucros do projeto de acordo com as quotas adquiridas.\n                        "
+              " terá a participação nos lucros do projeto de acordo com as quotas adquiridas.\n                    "
             ),
             _c("br"),
             _vm._v(" d)"),
@@ -34292,7 +34296,7 @@ var render = function() {
               _vm._v(" O APORTADOR")
             ]),
             _vm._v(
-              " receberá suas rentabilidades a cada 12 meses, o lucro será mensalmente.\n                        "
+              " receberá suas rentabilidades a cada 12 meses, o lucro será mensalmente.\n                    "
             ),
             _c("br"),
             _vm._v(" "),
@@ -34304,7 +34308,7 @@ var render = function() {
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              "Os administradores se comprometem a devolver o valor aportado integralmente em caso de desistência por parte do APORTADOR,\n                        "
+              "Os administradores se comprometem a devolver o valor aportado integralmente em caso de desistência por parte do APORTADOR,\n                    "
             ),
             _c("span", { staticClass: "font-weight-bold" }, [
               _vm._v(
@@ -34316,7 +34320,7 @@ var render = function() {
             _vm._v(" "),
             _c("br"),
             _vm._v(" "),
-            _c("span", { staticClass: "font-weight-bold" }, [
+            _c("span", { staticClass: "font-weight-bold text-justify" }, [
               _vm._v("Cláusula 7ª – Dos Rendimentos")
             ]),
             _vm._v(" "),
@@ -34324,13 +34328,13 @@ var render = function() {
             _vm._v(
               "O valor descrito na Cláusula 2º, será " +
                 _vm._s(_vm.proponente.forma_pagamento) +
-                ".\n\n\n\n\n                        "
+                ".\n\n\n\n\n                    "
             ),
             _c("br"),
             _vm._v(" "),
             _c("br"),
             _vm._v(
-              "Por estarem cientes, as partes assinam em duas vias o presente instrumento particular na presença de duas testemunhas.\n                        "
+              "Por estarem cientes, as partes assinam em duas vias o presente instrumento particular na presença de duas testemunhas.\n                    "
             ),
             _c("br"),
             _vm._v(" "),
@@ -34342,7 +34346,7 @@ var render = function() {
                 _vm._s(_vm.mes) +
                 " de " +
                 _vm._s(_vm.ano) +
-                ".\n                    "
+                ".\n                "
             )
           ])
         ])
@@ -34352,13 +34356,13 @@ var render = function() {
         _vm._m(0),
         _vm._v(" "),
         _c("div", { staticClass: "col-md-5 text-right" }, [
-          _vm._v("_________________________\n                    "),
+          _vm._v("_________________________\n                "),
           _c("br"),
           _vm._v(
-            " Nome: " + _vm._s(_vm.proponente.nome) + "\n                    "
+            " Nome: " + _vm._s(_vm.proponente.nome) + "\n                "
           ),
           _c("br"),
-          _vm._v(" CPF: " + _vm._s(_vm.proponente.cpf) + "\n                ")
+          _vm._v(" CPF: " + _vm._s(_vm.proponente.cpf) + "\n            ")
         ])
       ]),
       _vm._v(" "),
@@ -34393,11 +34397,11 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-5" }, [
-      _vm._v("___________________________\n                    "),
+      _vm._v("___________________________\n                "),
       _c("br"),
-      _vm._v("Pasanaku Familia Feliz\n                    "),
+      _vm._v("Pasanaku Familia Feliz\n                "),
       _c("br"),
-      _vm._v("CNPJ: 28.616.397/0001-60\n                ")
+      _vm._v("CNPJ: 28.616.397/0001-60\n            ")
     ])
   },
   function() {
@@ -34406,19 +34410,25 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row row-space justify-content-center" }, [
       _c("div", { staticClass: "col-md-5" }, [
-        _vm._v("___________________________\n                    "),
+        _vm._v("\n                Testemunha 1 "),
         _c("br"),
-        _vm._v("David Oliveira de Lira\n                    "),
         _c("br"),
-        _vm._v("CPF: 091.702.348-09\n                ")
+        _vm._v(
+          "\n                ___________________________\n                "
+        ),
+        _c("br"),
+        _vm._v(" "),
+        _c("br")
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-5 text-right" }, [
-        _vm._v("_________________________\n                    "),
+        _vm._v("\n                Testemunha 2 "),
         _c("br"),
-        _vm._v("Grace Shella Zevallos\n                    "),
         _c("br"),
-        _vm._v("CPF: 233.725.518-26\n                ")
+        _vm._v("\n                _________________________\n                "),
+        _c("br"),
+        _vm._v(" "),
+        _c("br")
       ])
     ])
   }

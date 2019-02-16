@@ -20,7 +20,7 @@ class EmailController extends Controller
 
         Mail::send('emails.bodymails', $dados, function($message){
             // $message->to('contato@solucaosmart.com');
-            $message->to('contato@solucaosmart.com');
+            $message->to('jorgeserranojunior@hotmail.com');
             $message->subject('E-mail enviado pelo site da Solucão Smart');
         });
         return response()->json([
