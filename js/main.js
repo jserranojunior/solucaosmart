@@ -14075,6 +14075,13 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 
 var extenso = __webpack_require__(/*! extenso */ "./node_modules/extenso/dist/extenso.min.js");
@@ -34030,349 +34037,351 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row row-space" }, [
-        _c("div", { staticClass: "col-md-12 text-center" }, [
-          _c("h5", [
-            _vm._v(
-              "CONTRATO DE CESSÃO DE QUOTAS DO PROJETO\n                    "
-            ),
-            _c("br"),
-            _vm._v(" “" + _vm._s(_vm.proponente.projetos) + "” "),
-            _c("br"),
-            _c("br"),
-            _c("br"),
-            _c("br"),
-            _c("br")
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row justify-content-center text-justify" }, [
-        _c("div", { staticClass: "col-md-10 text-justify" }, [
-          _c("p", [
-            _c("span", { staticClass: "font-weight-bold text-justify" }, [
+    _c("div", { staticClass: "container-fluid " }, [
+      _c("div", { staticClass: "to-word" }, [
+        _c("div", { staticClass: "row row-space" }, [
+          _c("div", { staticClass: "col-md-12 text-center" }, [
+            _c("h5", [
               _vm._v(
-                "\n                  PASANAKU FAMILIA FELIZ- INCORPORACAO, CONSTRUCAO, CREDITOS MUTUOS,\n                  ADMINISTRACAO DE FUNDOS E CORRESPONDENTE BANCARIO LTDA\n                "
-              )
-            ]),
-            _vm._v(
-              ", CNPJ n. 28.616.397/0001-60 com sede em Rua Doutor Costa Valente, 217 – 2 º andar – Brás – São Paulo – SP – CEP: 03052-000, neste ato representada por Bladimir Mamani Chuquimia, portador do RNE número Y266740-F\n                    e inscrito no CPF número 227.355.598-90 e Jaime Wilston Mamani Chuquimia portador do RNE Y269466-V e inscrito no CPF número 227.370.898-08, ambos diretores da empresa acima qualificada, doravante denominados\n                    "
-            ),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("ADMINISTRADORES")
-            ]),
-            _vm._v(
-              " , e de outro lado " +
-                _vm._s(_vm.proponente.nome) +
-                ", data de nascimento, " +
-                _vm._s(_vm.proponente.data_nascimento) +
-                " ,nacionalidade " +
-                _vm._s(_vm.proponente.nacionalidade) +
-                ", estado civil: " +
-                _vm._s(_vm.proponente.estado_civil) +
-                ",\n                    profissão " +
-                _vm._s(_vm.proponente.profissao) +
-                ", portador do RNE número " +
-                _vm._s(_vm.proponente.rne) +
-                ", RG: " +
-                _vm._s(_vm.proponente.rg) +
-                ",\n                    "
-            ),
-            _vm.proponente.cedula_identidade
-              ? _c("span", [
-                  _vm._v(
-                    "Cédula de Identidade: " +
-                      _vm._s(_vm.proponente.cedula_identidade)
-                  )
-                ])
-              : _vm._e(),
-            _vm._v(
-              " e inscrito no CPF número " +
-                _vm._s(_vm.proponente.cpf) +
-                " , residente em " +
-                _vm._s(_vm.proponente.logradouro) +
-                ", n° " +
-                _vm._s(_vm.proponente.numero) +
-                ", bairro: " +
-                _vm._s(_vm.proponente.bairro) +
-                "\n                    - Cidade: " +
-                _vm._s(_vm.proponente.cidade) +
-                ", Estado " +
-                _vm._s(_vm.proponente.estado) +
-                " - CEP: " +
-                _vm._s(_vm.proponente.cep) +
-                ",complemento: " +
-                _vm._s(_vm.proponente.complemento) +
-                ", telefones: " +
-                _vm._s(_vm.proponente.celular) +
-                " - " +
-                _vm._s(_vm.proponente.telefone) +
-                ", E-mail: " +
-                _vm._s(_vm.proponente.email) +
-                ", doravante denominada\n                    "
-            ),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("APORTADOR")
-            ]),
-            _vm._v(
-              ", sendo assim, firma- se o presente CONTRATO DE CESSÃO DE QUOTAS DO PROJETO “" +
-                _vm._s(_vm.proponente.projetos) +
-                "”, conforme as cláusulas a seguir:\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("Cláusula 1ª – Do Objeto do Contrato")
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              "Por meio deste contrato, que firmam entre si os\n                    "
-            ),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("ADMINISTRADORES")
-            ]),
-            _vm._v(" e o "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("APORTADOR")
-            ]),
-            _vm._v(
-              ", regula–se a transferência de " +
-                _vm._s(_vm.proponente.valor_aporte) +
-                " (" +
-                _vm._s(_vm.valor_extenso) +
-                ") quotas de titularidade dos Administradores.\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v("§ 1º O\n                    "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("APORTADOR")
-            ]),
-            _vm._v(
-              " declara, ainda estar ciente sobre o projeto “ " +
-                _vm._s(_vm.proponente.projetos) +
-                "”.\n\n\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("Cláusula 2ª – Do Valor")
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              " Para a transferência das quotas, as partes ajustam o valor certo de R$" +
-                _vm._s(_vm.proponente.valor_aporte) +
-                " (" +
-                _vm._s(_vm.valor_extenso) +
-                " de reais), valor a ser aportado nas seguintes condições:\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              " O tipo de pagamento será do tipo: " +
-                _vm._s(_vm.proponente.forma_pagamento) +
-                "\n\n                    "
-            ),
-            _vm.proponente.transferencia
-              ? _c("span", [
-                  _vm._v(
-                    "O pagamento será feito atravez de transferência: " +
-                      _vm._s(_vm.proponente.transferencia)
-                  )
-                ])
-              : _vm._e(),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _vm.proponente.deposito
-              ? _c("span", [
-                  _vm._v(
-                    "O pagamento será feito atravez de deposito: " +
-                      _vm._s(_vm.proponente.deposito)
-                  )
-                ])
-              : _vm._e(),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              "Observações: " +
-                _vm._s(_vm.proponente.observacoes) +
-                "\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("Cláusula 3ª – Da Transferência Definitiva das Quotas")
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              " As partes se comprometem reciprocamente a acompanhar todos os encaminhamentos do projeto e fornecer todos os documentos necessários para seu registro na Junta Comercial.\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("Cláusula 4ª – Dos Direitos e Obrigações")
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" Os ADMINISTRADORES:\n                    "),
-            _c("br"),
-            _vm._v(
-              "A)Transferir as quotas livres e desembaraçadas de qualquer ônus;\n                    "
-            ),
-            _c("br"),
-            _vm._v(
-              "B)Informar o APORTADOR sobre qualquer ônus reais, judiciais ou extrajudiciais ou quaisquer outros fatos, ações ou medidas administrativas que possam por ventura atingir as quotas cedidas;\n                    "
-            ),
-            _c("br"),
-            _vm._v(
-              "C)Realizar as diligencias e prestar toda a assistência ao APORTADOR para a transferência definitiva das quotas.\n\n                    "
-            ),
-            _c("br"),
-            _vm._v("O APORTADOR:\n                    "),
-            _c("br"),
-            _vm._v(
-              "A)Adimplir suas obrigações no tempo e modo acordados neste contrato;\n                    "
-            ),
-            _c("br"),
-            _vm._v(
-              "B)Fornecer todos os documentos pessoais para a transferência;\n                    "
-            ),
-            _c("br"),
-            _vm._v(
-              "C)Informar os administradores sobre a insolvência civil, recuperação judicial ou extrajudicial, falência ou de qualquer ação ou execução declarada contra si.\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("Cláusula 5ª – Dos Rendimentos")
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" a)"),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v(" O APORTADOR")
-            ]),
-            _vm._v(
-              " terá a rentabilidade de 1 % ao mês até a viabilidade da empresa.\n                    "
-            ),
-            _c("br"),
-            _vm._v(" b)"),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v(" O APORTADOR")
-            ]),
-            _vm._v(
-              " terá a rentabilidade de 3% ao mês no período de 24 meses após a sua contemplação.\n                    "
-            ),
-            _c("br"),
-            _vm._v(" c) Após os períodos acima descritos "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v(" O APORTADOR")
-            ]),
-            _vm._v(
-              " terá a participação nos lucros do projeto de acordo com as quotas adquiridas.\n                    "
-            ),
-            _c("br"),
-            _vm._v(" d)"),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v(" O APORTADOR")
-            ]),
-            _vm._v(
-              " receberá suas rentabilidades a cada 12 meses, o lucro será mensalmente.\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v("Cláusula 6ª – Da Desistência")
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              "Os administradores se comprometem a devolver o valor aportado integralmente em caso de desistência por parte do APORTADOR,\n                    "
-            ),
-            _c("span", { staticClass: "font-weight-bold" }, [
-              _vm._v(
-                "\n                  desde que comunicado com 60 dias de antecedência e\n                  por escrito aos ADMINISTRADORES.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(" "),
-            _c("span", { staticClass: "font-weight-bold text-justify" }, [
-              _vm._v("Cláusula 7ª – Dos Rendimentos")
-            ]),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              "O valor descrito na Cláusula 2º, será " +
-                _vm._s(_vm.proponente.forma_pagamento) +
-                ".\n\n\n\n\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              "Por estarem cientes, as partes assinam em duas vias o presente instrumento particular na presença de duas testemunhas.\n                    "
-            ),
-            _c("br"),
-            _vm._v(" "),
-            _c("br"),
-            _vm._v(
-              " São Paulo " +
-                _vm._s(_vm.dia) +
-                " de " +
-                _vm._s(_vm.mes) +
-                " de " +
-                _vm._s(_vm.ano) +
-                ".\n                "
-            )
+                "CONTRATO DE CESSÃO DE QUOTAS DO PROJETO\n                        "
+              ),
+              _c("br"),
+              _vm._v(" “" + _vm._s(_vm.proponente.projetos) + "” "),
+              _c("br"),
+              _c("br"),
+              _c("br"),
+              _c("br"),
+              _c("br")
+            ])
           ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row row-space justify-content-center" }, [
-        _vm._m(0),
+        ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-5 text-right" }, [
-          _vm._v("_________________________\n                "),
-          _c("br"),
-          _vm._v(
-            " Nome: " + _vm._s(_vm.proponente.nome) + "\n                "
-          ),
-          _c("br"),
-          _vm._v(" CPF: " + _vm._s(_vm.proponente.cpf) + "\n            ")
-        ])
+        _c("div", { staticClass: "row justify-content-center text-justify" }, [
+          _c("div", { staticClass: "col-md-10 text-justify " }, [
+            _c("p", [
+              _c("span", { staticClass: "font-weight-bold text-justify" }, [
+                _vm._v(
+                  "\n                    PASANAKU FAMILIA FELIZ- INCORPORACAO, CONSTRUCAO, CREDITOS MUTUOS,\n                    ADMINISTRACAO DE FUNDOS E CORRESPONDENTE BANCARIO LTDA\n                    "
+                )
+              ]),
+              _vm._v(
+                ", CNPJ n. 28.616.397/0001-60 com sede em Rua Doutor Costa Valente, 217 – 2 º andar – Brás – São Paulo – SP – CEP: 03052-000, neste ato representada por Bladimir Mamani Chuquimia, portador do RNE número Y266740-F\n                        e inscrito no CPF número 227.355.598-90 e Jaime Wilston Mamani Chuquimia portador do RNE Y269466-V e inscrito no CPF número 227.370.898-08, ambos diretores da empresa acima qualificada, doravante denominados\n                        "
+              ),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("ADMINISTRADORES")
+              ]),
+              _vm._v(
+                " , e de outro lado " +
+                  _vm._s(_vm.proponente.nome) +
+                  ", data de nascimento, " +
+                  _vm._s(_vm.proponente.data_nascimento) +
+                  " ,nacionalidade " +
+                  _vm._s(_vm.proponente.nacionalidade) +
+                  ", estado civil: " +
+                  _vm._s(_vm.proponente.estado_civil) +
+                  ",\n                        profissão " +
+                  _vm._s(_vm.proponente.profissao) +
+                  ", portador do RNE número " +
+                  _vm._s(_vm.proponente.rne) +
+                  ", RG: " +
+                  _vm._s(_vm.proponente.rg) +
+                  ",\n                        "
+              ),
+              _vm.proponente.cedula_identidade
+                ? _c("span", [
+                    _vm._v(
+                      "Cédula de Identidade: " +
+                        _vm._s(_vm.proponente.cedula_identidade)
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(
+                " e inscrito no CPF número " +
+                  _vm._s(_vm.proponente.cpf) +
+                  " , residente em " +
+                  _vm._s(_vm.proponente.logradouro) +
+                  ", n° " +
+                  _vm._s(_vm.proponente.numero) +
+                  ", bairro: " +
+                  _vm._s(_vm.proponente.bairro) +
+                  "\n                        - Cidade: " +
+                  _vm._s(_vm.proponente.cidade) +
+                  ", Estado " +
+                  _vm._s(_vm.proponente.estado) +
+                  " - CEP: " +
+                  _vm._s(_vm.proponente.cep) +
+                  ",complemento: " +
+                  _vm._s(_vm.proponente.complemento) +
+                  ", telefones: " +
+                  _vm._s(_vm.proponente.celular) +
+                  " - " +
+                  _vm._s(_vm.proponente.telefone) +
+                  ", E-mail: " +
+                  _vm._s(_vm.proponente.email) +
+                  ", doravante denominada\n                        "
+              ),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("APORTADOR")
+              ]),
+              _vm._v(
+                ", sendo assim, firma- se o presente CONTRATO DE CESSÃO DE QUOTAS DO PROJETO “" +
+                  _vm._s(_vm.proponente.projetos) +
+                  "”, conforme as cláusulas a seguir:\n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("Cláusula 1ª – Do Objeto do Contrato")
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                "Por meio deste contrato, que firmam entre si os\n                        "
+              ),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("ADMINISTRADORES")
+              ]),
+              _vm._v(" e o "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("APORTADOR")
+              ]),
+              _vm._v(
+                ", regula–se a transferência de " +
+                  _vm._s(_vm.proponente.valor_aporte) +
+                  " (" +
+                  _vm._s(_vm.valor_extenso) +
+                  ") quotas de titularidade dos Administradores.\n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v("§ 1º O\n                        "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("APORTADOR")
+              ]),
+              _vm._v(
+                " declara, ainda estar ciente sobre o projeto “ " +
+                  _vm._s(_vm.proponente.projetos) +
+                  "”.\n    \n    \n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("Cláusula 2ª – Do Valor")
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                " Para a transferência das quotas, as partes ajustam o valor certo de R$" +
+                  _vm._s(_vm.proponente.valor_aporte) +
+                  " (" +
+                  _vm._s(_vm.valor_extenso) +
+                  " de reais), valor a ser aportado nas seguintes condições:\n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                " O tipo de pagamento será do tipo: " +
+                  _vm._s(_vm.proponente.forma_pagamento) +
+                  "\n    \n                        "
+              ),
+              _vm.proponente.transferencia
+                ? _c("span", [
+                    _vm._v(
+                      "O pagamento será feito atravez de transferência: " +
+                        _vm._s(_vm.proponente.transferencia)
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _vm.proponente.deposito
+                ? _c("span", [
+                    _vm._v(
+                      "O pagamento será feito atravez de deposito: " +
+                        _vm._s(_vm.proponente.deposito)
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                "Observações: " +
+                  _vm._s(_vm.proponente.observacoes) +
+                  "\n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("Cláusula 3ª – Da Transferência Definitiva das Quotas")
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                " As partes se comprometem reciprocamente a acompanhar todos os encaminhamentos do projeto e fornecer todos os documentos necessários para seu registro na Junta Comercial.\n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("Cláusula 4ª – Dos Direitos e Obrigações")
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" Os ADMINISTRADORES:\n                        "),
+              _c("br"),
+              _vm._v(
+                "A)Transferir as quotas livres e desembaraçadas de qualquer ônus;\n                        "
+              ),
+              _c("br"),
+              _vm._v(
+                "B)Informar o APORTADOR sobre qualquer ônus reais, judiciais ou extrajudiciais ou quaisquer outros fatos, ações ou medidas administrativas que possam por ventura atingir as quotas cedidas;\n                        "
+              ),
+              _c("br"),
+              _vm._v(
+                "C)Realizar as diligencias e prestar toda a assistência ao APORTADOR para a transferência definitiva das quotas.\n    \n                        "
+              ),
+              _c("br"),
+              _vm._v("O APORTADOR:\n                        "),
+              _c("br"),
+              _vm._v(
+                "A)Adimplir suas obrigações no tempo e modo acordados neste contrato;\n                        "
+              ),
+              _c("br"),
+              _vm._v(
+                "B)Fornecer todos os documentos pessoais para a transferência;\n                        "
+              ),
+              _c("br"),
+              _vm._v(
+                "C)Informar os administradores sobre a insolvência civil, recuperação judicial ou extrajudicial, falência ou de qualquer ação ou execução declarada contra si.\n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("Cláusula 5ª – Dos Rendimentos")
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" a)"),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v(" O APORTADOR")
+              ]),
+              _vm._v(
+                " terá a rentabilidade de 1 % ao mês até a viabilidade da empresa.\n                        "
+              ),
+              _c("br"),
+              _vm._v(" b)"),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v(" O APORTADOR")
+              ]),
+              _vm._v(
+                " terá a rentabilidade de 3% ao mês no período de 24 meses após a sua contemplação.\n                        "
+              ),
+              _c("br"),
+              _vm._v(" c) Após os períodos acima descritos "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v(" O APORTADOR")
+              ]),
+              _vm._v(
+                " terá a participação nos lucros do projeto de acordo com as quotas adquiridas.\n                        "
+              ),
+              _c("br"),
+              _vm._v(" d)"),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v(" O APORTADOR")
+              ]),
+              _vm._v(
+                " receberá suas rentabilidades a cada 12 meses, o lucro será mensalmente.\n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v("Cláusula 6ª – Da Desistência")
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                "Os administradores se comprometem a devolver o valor aportado integralmente em caso de desistência por parte do APORTADOR,\n                        "
+              ),
+              _c("span", { staticClass: "font-weight-bold" }, [
+                _vm._v(
+                  "\n                    desde que comunicado com 60 dias de antecedência e\n                    por escrito aos ADMINISTRADORES.\n                    "
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticClass: "font-weight-bold text-justify" }, [
+                _vm._v("Cláusula 7ª – Dos Rendimentos")
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                "O valor descrito na Cláusula 2º, será " +
+                  _vm._s(_vm.proponente.forma_pagamento) +
+                  ".\n    \n    \n    \n    \n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                "Por estarem cientes, as partes assinam em duas vias o presente instrumento particular na presença de duas testemunhas.\n                        "
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(
+                " São Paulo " +
+                  _vm._s(_vm.dia) +
+                  " de " +
+                  _vm._s(_vm.mes) +
+                  " de " +
+                  _vm._s(_vm.ano) +
+                  ".\n                    "
+              )
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row row-space justify-content-center" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-5 text-right" }, [
+            _vm._v("_________________________\n                    "),
+            _c("br"),
+            _vm._v(
+              " Nome: " + _vm._s(_vm.proponente.nome) + "\n                    "
+            ),
+            _c("br"),
+            _vm._v(" CPF: " + _vm._s(_vm.proponente.cpf) + "\n                ")
+          ])
+        ]),
+        _vm._v(" "),
+        _vm._m(1)
       ]),
-      _vm._v(" "),
-      _vm._m(1),
       _vm._v(" "),
       _c(
         "div",
         { staticClass: "row row-space justify-content-center no-print" },
         [
-          _c("div", { staticClass: "col-md-10 text-right" }, [
+          _c("div", { staticClass: "col-md-5 text-right" }, [
             _c(
               "div",
               {
@@ -34385,7 +34394,9 @@ var render = function() {
               },
               [_vm._v("IMPRIMIR")]
             )
-          ])
+          ]),
+          _vm._v(" "),
+          _vm._m(2)
         ]
       )
     ])
@@ -34397,11 +34408,11 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-md-5" }, [
-      _vm._v("___________________________\n                "),
+      _vm._v("___________________________\n                    "),
       _c("br"),
-      _vm._v("Pasanaku Familia Feliz\n                "),
+      _vm._v("Pasanaku Familia Feliz\n                    "),
       _c("br"),
-      _vm._v("CNPJ: 28.616.397/0001-60\n            ")
+      _vm._v("CNPJ: 28.616.397/0001-60\n                ")
     ])
   },
   function() {
@@ -34410,11 +34421,11 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row row-space justify-content-center" }, [
       _c("div", { staticClass: "col-md-5" }, [
-        _vm._v("\n                Testemunha 1 "),
+        _vm._v("\n                    Testemunha 1 "),
         _c("br"),
         _c("br"),
         _vm._v(
-          "\n                ___________________________\n                "
+          "\n                    ___________________________\n                    "
         ),
         _c("br"),
         _vm._v(" "),
@@ -34422,13 +34433,25 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "col-md-5 text-right" }, [
-        _vm._v("\n                Testemunha 2 "),
+        _vm._v("\n                    Testemunha 2 "),
         _c("br"),
         _c("br"),
-        _vm._v("\n                _________________________\n                "),
+        _vm._v(
+          "\n                    _________________________\n                    "
+        ),
         _c("br"),
         _vm._v(" "),
         _c("br")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-5 text-left" }, [
+      _c("div", { staticClass: "btn btn-warning jquery-word-export" }, [
+        _vm._v(" Exportar para Word")
       ])
     ])
   }
