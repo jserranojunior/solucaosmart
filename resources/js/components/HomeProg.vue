@@ -3,24 +3,33 @@
         <div class="container-fluid">
             <div class="row row-space">
                 <div class="col-12">
-                    <nav class="navbar navbar-light bg-light">
-                        <p><i class="fas fa-map-marker-alt"></i> Rua Dr. Costa Valente</p>
-                        <p><i class="fab fa-twitter"></i> | <i class="fab fa-facebook-square"></i> | <i class="fab fa-google-plus-g"></i> | <i class="fab fa-linkedin"></i> |
-                            <i class="fab fa-instagram"></i></p>
-                        <p>ENTRAR INSCREVA-SE</p>
+                    <nav class="navbar nav-social grad-smart navbar-dark bg-light text-light">
+                        <div class="col-4"><span><i class="fas fa-map-marker-alt"></i> Rua Dr. Costa Valente</span></div>
+                       
+                       <div class="col-4 text-center">
+                            <span><div class="btn"><i class="fab fa-twitter"></i></div> | 
+                        
+                        <div class="btn"><i class="fab fa-facebook-square"></i> </div>| 
+                        <div class="btn"><i class="fab fa-google-plus-g"></i></div> | 
+                        <div class="btn"><i class="fab fa-linkedin"></i></div> |
+                            <div class="btn"><i class="fab fa-instagram"></i></div></span>
+                       </div>
+                        <div class="col-4 text-right">
+                            <span>ENTRAR INSCREVA-SE</span>
+                        </div>
                     </nav>
                 </div>
             </div>
             <div class="row row-space">
-                <div class="col-12">
-                    <p class="text-center">Português | Espanhol | Inglês | Francês</p>
+                <div class="col-12 text-center">
+                    <span class="text-center">Português | Espanhol | Inglês | Francês</span>
                 </div>
             </div>
             <div class="row row-space">
                 <div class="col-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar grad-smart navbar-expand-lg navbar-dark bg-light">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
+                            <ul class="navbar-nav mr-auto text-nowrap flex-row mx-md-auto">
                                 <li>
                                     <a class="nav-link" href="#">Incorporadora</a>
                                 </li>
@@ -100,5 +109,10 @@ export default {
 </script>
 
 <style scoped>
-
+    .grad-smart{
+         background-image: linear-gradient(to left, #ea3232 , #ff9900);
+    }
+    .navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
 </style>
