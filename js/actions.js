@@ -3,3 +3,9 @@ jQuery(document).ready(function($) {
         $(".to-word").wordExport();
     });
 });
+
+$(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+    $('.dropdown-submenu .show').removeClass("show");
+  });
+
+
