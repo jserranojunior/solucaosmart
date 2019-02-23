@@ -11,7 +11,7 @@ import App from './components/App'
 
 const router = new VueRouter({
     mode: 'history',
-    hash: false,
+    fallback: true,
     routes
 })
  

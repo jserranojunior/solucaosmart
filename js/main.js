@@ -52782,7 +52782,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
-  hash: false,
+  fallback: true,
   routes: _js_routes__WEBPACK_IMPORTED_MODULE_2__["default"]
 });
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
