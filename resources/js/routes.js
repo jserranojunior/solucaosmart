@@ -12,8 +12,6 @@ import CadastroClube from  './components/clubesmart/CadastroClube'
 
 
 const routes = [
-  
-    { path: '*', redirect: '/' },
 
     {path:'/', name:'home', component: HomeProg},
 

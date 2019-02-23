@@ -17,7 +17,7 @@
 
 
 
-        <div class="appvue" id="appvue">
+        <div class="app" id="app">
         <div class="container-fluid">
             
 

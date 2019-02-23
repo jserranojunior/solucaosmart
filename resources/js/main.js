@@ -10,9 +10,9 @@ import store from './store'
 import App from './components/App' 
 
 const router = new VueRouter({
-    mode: 'history',
-    fallback: true,
-    routes
+    mode: 'history', 
+    fallback: true, 
+    routes,
 })
  
   
@@ -23,4 +23,5 @@ new Vue({
     components:{
         App, 
     }
-}).$mount('#appvue')   
+}).$mount('#app')   
+

@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+Route::get('{path}', 'SpaController@index')->where('path', '.*');
 
 Auth::routes();
 
