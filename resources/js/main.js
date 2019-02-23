@@ -10,6 +10,8 @@ import store from './store'
 import App from './components/App' 
 
 const router = new VueRouter({
+    mode: 'history',
+    hash: false,
     routes
 })
  

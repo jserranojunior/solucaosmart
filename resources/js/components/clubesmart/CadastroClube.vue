@@ -1,5 +1,17 @@
  <template>
      <div>
+
+<div class="container">
+  
+    <div class="row row-space">
+        <div class="col-12">
+            <img src="/img/clube.jpeg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+ 
+</div>
+</div>
+
+
          <div class="row row-space">
              <div class="col-12 text-center">
                  <h4>Cadastro Clube Smart</h4>

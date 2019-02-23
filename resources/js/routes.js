@@ -12,12 +12,17 @@ import CadastroClube from  './components/clubesmart/CadastroClube'
 
 
 const routes = [
+  
+    { path: '*', redirect: '/' },
+
     {path:'/', name:'home', component: HomeProg},
+
     {path:'/projetos', name:'projetos', component: Proponentes}, 
     {path:'/projetos/contrato', name:'contrato', component: Contrato}, 
     {path:'/novosite', name:'novosite', component: NovoSite}, 
     {path:'/siteprog', name:'siteprog', component: HomeProg}, 
     {path:'/cadastroclube', name:'cadastroclube', component: CadastroClube}, 
+    
 ]
 
 

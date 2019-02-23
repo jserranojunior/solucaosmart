@@ -14294,6 +14294,18 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -35273,6 +35285,8 @@ var render = function() {
   return _c("div", [
     _vm._m(0),
     _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
     _c("div", { staticClass: "row row-space-form justify-content-center" }, [
       _c("div", { staticClass: "col-lg-4 col-md-8" }, [
         _c("input", {
@@ -35861,6 +35875,21 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row row-space" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c("img", {
+            staticClass: "d-block w-100 img-fluid",
+            attrs: { src: "/img/clube.jpeg", alt: "..." }
+          })
+        ])
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -52752,6 +52781,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
+  mode: 'history',
+  hash: false,
   routes: _js_routes__WEBPACK_IMPORTED_MODULE_2__["default"]
 });
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -52787,6 +52818,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [{
+  path: '*',
+  redirect: '/'
+}, {
   path: '/',
   name: 'home',
   component: _components_HomeProg__WEBPACK_IMPORTED_MODULE_4__["default"]
