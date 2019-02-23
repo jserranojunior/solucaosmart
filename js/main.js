@@ -34644,7 +34644,7 @@ var render = function() {
                           [
                             _c(
                               "router-link",
-                              { attrs: { to: "/cadastroclube" } },
+                              { attrs: { to: "/clubesmart" } },
                               [
                                 _c(
                                   "a",
@@ -34732,7 +34732,7 @@ var render = function() {
                   "div",
                   { staticClass: "carousel-item active" },
                   [
-                    _c("router-link", { attrs: { to: "/cadastroclube" } }, [
+                    _c("router-link", { attrs: { to: "/clubesmart" } }, [
                       _c("a", { attrs: { href: "#" } }, [
                         _c("img", {
                           staticClass: "d-block w-100 img-fluid",
@@ -52837,8 +52837,8 @@ var routes = [{
   name: 'siteprog',
   component: _components_HomeProg__WEBPACK_IMPORTED_MODULE_4__["default"]
 }, {
-  path: '/cadastroclube',
-  name: 'cadastroclube',
+  path: '/clubesmart',
+  name: 'clubesmart',
   component: _components_clubesmart_CadastroClube__WEBPACK_IMPORTED_MODULE_5__["default"]
 }];
 /* harmony default export */ __webpack_exports__["default"] = (routes);

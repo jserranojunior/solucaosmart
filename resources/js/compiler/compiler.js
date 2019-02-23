@@ -1843,7 +1843,7 @@ var render = function() {
                           [
                             _c(
                               "router-link",
-                              { attrs: { to: "/cadastroclube" } },
+                              { attrs: { to: "/clubesmart" } },
                               [
                                 _c(
                                   "a",
@@ -1931,7 +1931,7 @@ var render = function() {
                   "div",
                   { staticClass: "carousel-item active" },
                   [
-                    _c("router-link", { attrs: { to: "/cadastroclube" } }, [
+                    _c("router-link", { attrs: { to: "/clubesmart" } }, [
                       _c("a", { attrs: { href: "#" } }, [
                         _c("img", {
                           staticClass: "d-block w-100 img-fluid",
