@@ -19,7 +19,7 @@ const routes = [
     {path:'/projetos/contrato', name:'contrato', component: Contrato}, 
     {path:'/novosite', name:'novosite', component: NovoSite}, 
     {path:'/siteprog', name:'siteprog', component: HomeProg}, 
-    {path:'/cadastroclube', name:'cadastroclube', component: CadastroClube}, 
+    {path:'/clubesmart', name:'clubesmart', component: CadastroClube}, 
     
 ]
 

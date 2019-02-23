@@ -99,7 +99,7 @@
                                             Fintech
                                             </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <router-link to="/cadastroclube">
+                                    <router-link to="/clubesmart">
                                         <a class="dropdown-item" href="#">Clube Smart</a>
                                     </router-link>
                                         <a class="dropdown-item" href="#">Crédito Mútuo</a>
@@ -159,7 +159,7 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <router-link to="/cadastroclube">
+                                <router-link to="/clubesmart">
                                 <a href="#">
                                 <img src="/img/clube.jpeg" class="d-block w-100 img-fluid" alt="...">
                                
