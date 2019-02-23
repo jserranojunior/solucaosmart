@@ -32,3 +32,4 @@ Route::group([
 );
 
 Route::post('send', 'EmailController@send');
+Route::post('send/clube', 'EmailController@clube');

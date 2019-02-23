@@ -420,6 +420,48 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "HomeProg",
   mounted: function mounted() {
@@ -438,6 +480,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -492,7 +535,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.grad-smart[data-v-13ea85c4] {\n    background-image: linear-gradient(to left, #ea3232, #ff9900);\n}\n.navbar-dark .navbar-nav .nav-link[data-v-13ea85c4] {\n    color: #f8f9fa;\n}\n\n/*submenu*/\n.dropdown-submenu[data-v-13ea85c4] {\n    position: relative;\n}\n.dropdown-submenu>.dropdown-menu[data-v-13ea85c4] {\n    top: 0;\n    left: 100%;\n    margin-top: -6px;\n    margin-left: -1px;\n    border-radius: 0 6px 6px 6px;\n}\n.dropdown-submenu:hover>.dropdown-menu[data-v-13ea85c4] {\n    display: block;\n}\n.dropdown-submenu>a[data-v-13ea85c4]:after {\n    display: block;\n    content: \" \";\n    float: right;\n    width: 0;\n    height: 0;\n    border-color: transparent;\n    border-style: solid;\n    border-width: 5px 0 5px 5px;\n    border-left-color: #ccc;\n    margin-top: 5px;\n    margin-right: -10px;\n}\n.dropdown-submenu:hover>a[data-v-13ea85c4]:after {\n    border-left-color: #fff;\n}\n.dropdown-submenu.pull-left[data-v-13ea85c4] {\n    float: none;\n}\n.dropdown-submenu.pull-left>.dropdown-menu[data-v-13ea85c4] {\n    left: -100%;\n    margin-left: 10px;\n    border-radius: 6px 0 6px 6px;\n}\n", ""]);
+exports.push([module.i, "\n.grad-smart[data-v-13ea85c4] {\n    background-image: linear-gradient(to left, #ea3232, #ff9900);\n}\n.navbar-dark .navbar-nav .nav-link[data-v-13ea85c4] {\n    color: #f8f9fa;\n}\n.dropdown-item>a[data-v-13ea85c4] {\n    color: black;\n}\n\n/*submenu*/\n.dropdown-submenu[data-v-13ea85c4] {\n    position: relative;\n}\n.dropdown-submenu>.dropdown-menu[data-v-13ea85c4] {\n    top: 0;\n    left: 100%;\n    margin-top: -9px;\n    margin-left: -1px;\n    border-radius: 0 6px 6px 6px;\n}\n.dropdown-submenu:hover>.dropdown-menu[data-v-13ea85c4] {\n    display: block;\n}\n.dropdown-submenu>a[data-v-13ea85c4]:after {\n    display: block;\n    content: \" \";\n    float: right;\n    width: 0;\n    height: 0;\n    border-color: transparent;\n    border-style: solid;\n    border-width: 5px 0 5px 5px;\n    border-left-color: #ccc;\n    margin-top: 5px;\n    margin-right: -10px;\n}\n.dropdown-submenu:hover>a[data-v-13ea85c4]:after {\n    border-left-color: #fff;\n}\n.dropdown-submenu.pull-left[data-v-13ea85c4] {\n    float: none;\n}\n.dropdown-submenu.pull-left>.dropdown-menu[data-v-13ea85c4] {\n    left: -100%;\n    margin-left: 10px;\n    border-radius: 6px 0 6px 6px;\n}\n", ""]);
 
 // exports
 
@@ -1673,301 +1716,79 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "container-fluid" }, [
-        _c("div", { staticClass: "row row-space" }, [
-          _c("div", { staticClass: "col-12" }, [
-            _c(
-              "nav",
-              {
-                staticClass:
-                  "navbar nav-social grad-smart navbar-dark bg-light text-light"
-              },
-              [
-                _c("div", { staticClass: "col-4" }, [
-                  _c("span", [
-                    _c("i", { staticClass: "fas fa-map-marker-alt" }),
-                    _vm._v(" Rua Dr. Costa Valente")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-4 text-center" }, [
-                  _c("span", [
-                    _c("div", { staticClass: "btn" }, [
-                      _c("i", { staticClass: "fab fa-twitter" })
-                    ]),
-                    _vm._v(
-                      " | \n                        \n                        "
-                    ),
-                    _c("div", { staticClass: "btn" }, [
-                      _c("i", { staticClass: "fab fa-facebook-square" })
-                    ]),
-                    _vm._v("| \n                        "),
-                    _c("div", { staticClass: "btn" }, [
-                      _c("i", { staticClass: "fab fa-google-plus-g" })
-                    ]),
-                    _vm._v(" | \n                        "),
-                    _c("div", { staticClass: "btn" }, [
-                      _c("i", { staticClass: "fab fa-linkedin" })
-                    ]),
-                    _vm._v(" |\n                            "),
-                    _c("div", { staticClass: "btn" }, [
-                      _c("i", { staticClass: "fab fa-instagram" })
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "col-4 text-right" }, [
-                  _c("span", [_vm._v("ENTRAR INSCREVA-SE")])
-                ])
-              ]
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row row-space" }, [
-          _c("div", { staticClass: "col-12 text-center" }, [
-            _c("span", { staticClass: "text-center" }, [
-              _vm._v("Português | Espanhol | Inglês | Francês")
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row row-space" }, [
-          _c("div", { staticClass: "col-12" }, [
-            _c(
-              "nav",
-              {
-                staticClass:
-                  "navbar grad-smart navbar-expand-lg navbar-dark bg-light"
-              },
-              [
-                _c(
-                  "div",
-                  {
-                    staticClass: "collapse navbar-collapse",
-                    attrs: { id: "navbarSupportedContent" }
-                  },
-                  [
-                    _c(
-                      "ul",
-                      {
-                        staticClass:
-                          "navbar-nav mr-auto text-nowrap flex-row mx-md-auto"
-                      },
-                      [
-                        _c("li", { staticClass: "nav-item dropdown" }, [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "nav-link dropdown-toggle",
-                              attrs: {
-                                href: "#",
-                                id: "navbarDropdown",
-                                role: "button",
-                                "data-toggle": "dropdown",
-                                "aria-haspopup": "true",
-                                "aria-expanded": "false"
-                              }
-                            },
-                            [
-                              _vm._v(
-                                "\n                                    Incorporadora\n                                    "
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            {
-                              staticClass: "dropdown-menu",
-                              attrs: { "aria-labelledby": "navbarDropdown" }
-                            },
-                            [
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "dropdown-item",
-                                  attrs: { href: "#" }
-                                },
-                                [_vm._v("Terrenos")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "dropdown-item",
-                                  attrs: { href: "#" }
-                                },
-                                [_vm._v("Casas")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "dropdown-item",
-                                  attrs: { href: "#" }
-                                },
-                                [_vm._v("Apartamentos")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "dropdown-item",
-                                  attrs: { href: "#" }
-                                },
-                                [_vm._v("Salão Comercial")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "dropdown-item",
-                                  attrs: { href: "#" }
-                                },
-                                [_vm._v("Sala Comercial")]
-                              )
-                            ]
-                          )
-                        ]),
+  return _c("div", [
+    _c("div", { staticClass: "container-fluid" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c("div", { staticClass: "row row-space" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c(
+            "nav",
+            {
+              staticClass:
+                "navbar grad-smart navbar-expand-lg navbar-dark bg-light"
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass: "collapse navbar-collapse",
+                  attrs: { id: "navbarSupportedContent" }
+                },
+                [
+                  _c(
+                    "ul",
+                    {
+                      staticClass:
+                        "navbar-nav mr-auto text-nowrap flex-row mx-md-auto"
+                    },
+                    [
+                      _vm._m(2),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item dropdown" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link dropdown-toggle",
+                            attrs: {
+                              href: "#",
+                              id: "navbarDropdown",
+                              role: "button",
+                              "data-toggle": "dropdown",
+                              "aria-haspopup": "true",
+                              "aria-expanded": "false"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              "\n                                        Projetos Empresariais\n                                        "
+                            )
+                          ]
+                        ),
                         _vm._v(" "),
-                        _c("li", { staticClass: "nav-item dropdown" }, [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "nav-link dropdown-toggle",
-                              attrs: {
-                                href: "#",
-                                id: "navbarDropdown",
-                                role: "button",
-                                "data-toggle": "dropdown",
-                                "aria-haspopup": "true",
-                                "aria-expanded": "false"
-                              }
-                            },
-                            [
-                              _vm._v(
-                                "\n                                    Projetos Empresariais\n                                    "
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            {
-                              staticClass: "dropdown-menu",
-                              attrs: { "aria-labelledby": "navbarDropdown" }
-                            },
-                            [
-                              _c("li", { staticClass: "dropdown-submenu" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "dropdown-item",
-                                    attrs: { tabindex: "-1", href: "#" }
-                                  },
-                                  [_vm._v("Executados")]
-                                ),
-                                _vm._v(" "),
-                                _c("ul", { staticClass: "dropdown-menu" }, [
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Cartório Postal")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Rede MegaFox")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Big Casa&Construção")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Farmelhor (oratório)")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("GBE Modas")
-                                    ])
-                                  ])
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c("li", { staticClass: "dropdown-submenu" }, [
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "dropdown-item",
-                                    attrs: { tabindex: "-1", href: "#" }
-                                  },
-                                  [_vm._v("Em Andamento")]
-                                ),
-                                _vm._v(" "),
-                                _c("ul", { staticClass: "dropdown-menu" }, [
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Loja de Roupa")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Loja de Sapato")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Posto de Gasolina")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Supermercado")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Escola")
-                                    ])
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "dropdown-item" }, [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v("Saiba mais...")
-                                    ])
-                                  ])
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "dropdown-item",
-                                  attrs: { href: "#" }
-                                },
-                                [_vm._v("Conheça mais")]
-                              ),
-                              _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "dropdown-menu",
+                            attrs: { "aria-labelledby": "navbarDropdown" }
+                          },
+                          [
+                            _vm._m(3),
+                            _vm._v(" "),
+                            _vm._m(4),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "dropdown-item",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Conheça mais")]
+                            ),
+                            _vm._v(" "),
+                            _c("router-link", { attrs: { to: "/projetos" } }, [
                               _c(
                                 "a",
                                 {
@@ -1975,185 +1796,625 @@ var staticRenderFns = [
                                   attrs: { href: "#" }
                                 },
                                 [_vm._v("Seja Sócio")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "a",
-                                {
-                                  staticClass: "dropdown-item",
-                                  attrs: { href: "#" }
-                                },
-                                [_vm._v("Sala Comercial")]
                               )
-                            ]
-                          )
-                        ]),
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "dropdown-item",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Sala Comercial")]
+                            )
+                          ],
+                          1
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(5),
+                      _vm._v(" "),
+                      _c("li", { staticClass: "nav-item dropdown" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "nav-link dropdown-toggle",
+                            attrs: {
+                              href: "#",
+                              id: "navbarDropdown",
+                              role: "button",
+                              "data-toggle": "dropdown",
+                              "aria-haspopup": "true",
+                              "aria-expanded": "false"
+                            }
+                          },
+                          [
+                            _vm._v(
+                              "\n                                        Fintech\n                                        "
+                            )
+                          ]
+                        ),
                         _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "a",
-                            { staticClass: "nav-link", attrs: { href: "#" } },
-                            [_vm._v("Comunicação")]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "a",
-                            { staticClass: "nav-link", attrs: { href: "#" } },
-                            [_vm._v("Fintech")]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "a",
-                            { staticClass: "nav-link", attrs: { href: "#" } },
-                            [_vm._v("Eventos")]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "a",
-                            { staticClass: "nav-link", attrs: { href: "#" } },
-                            [_vm._v("Trabalhe Conosco")]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "a",
-                            { staticClass: "nav-link", attrs: { href: "#" } },
-                            [_vm._v("Parceiros")]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "a",
-                            { staticClass: "nav-link", attrs: { href: "#" } },
-                            [_vm._v("Contatos")]
-                          )
-                        ])
-                      ]
-                    )
-                  ]
-                )
-              ]
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row row-space" }, [
-          _c("div", { staticClass: "col-12" }, [
-            _c(
-              "div",
-              {
-                staticClass: "carousel slide",
-                attrs: {
-                  id: "carouselExampleIndicators",
-                  "data-ride": "carousel"
-                }
-              },
-              [
-                _c("ol", { staticClass: "carousel-indicators" }, [
-                  _c("li", {
-                    staticClass: "active",
-                    attrs: {
-                      "data-target": "#carouselExampleIndicators",
-                      "data-slide-to": "0"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("li", {
-                    attrs: {
-                      "data-target": "#carouselExampleIndicators",
-                      "data-slide-to": "1"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("li", {
-                    attrs: {
-                      "data-target": "#carouselExampleIndicators",
-                      "data-slide-to": "2"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "carousel-inner" }, [
-                  _c("div", { staticClass: "carousel-item active" }, [
-                    _c("img", {
-                      staticClass: "d-block w-100",
-                      attrs: { src: "#", alt: "..." }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "carousel-item" }, [
-                    _c("img", {
-                      staticClass: "d-block w-100",
-                      attrs: { src: "#", alt: "..." }
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "carousel-item" }, [
-                    _c("img", {
-                      staticClass: "d-block w-100",
-                      attrs: { src: "#", alt: "..." }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "dropdown-menu",
+                            attrs: { "aria-labelledby": "navbarDropdown" }
+                          },
+                          [
+                            _c(
+                              "router-link",
+                              { attrs: { to: "/cadastroclube" } },
+                              [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass: "dropdown-item",
+                                    attrs: { href: "#" }
+                                  },
+                                  [_vm._v("Clube Smart")]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "dropdown-item",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Crédito Mútuo")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "dropdown-item",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Conta Smart")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "dropdown-item",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Pagamentos")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "a",
+                              {
+                                staticClass: "dropdown-item",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Envios (Agente More)")]
+                            )
+                          ],
+                          1
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _vm._m(6),
+                      _vm._v(" "),
+                      _vm._m(7),
+                      _vm._v(" "),
+                      _vm._m(8),
+                      _vm._v(" "),
+                      _vm._m(9)
+                    ]
+                  )
+                ]
+              )
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row row-space" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c(
+            "div",
+            {
+              staticClass: "carousel slide",
+              attrs: {
+                id: "carouselExampleIndicators",
+                "data-ride": "carousel"
+              }
+            },
+            [
+              _vm._m(10),
+              _vm._v(" "),
+              _c("div", { staticClass: "carousel-inner" }, [
                 _c(
-                  "a",
-                  {
-                    staticClass: "carousel-control-prev",
-                    attrs: {
-                      href: "#carouselExampleIndicators",
-                      role: "button",
-                      "data-slide": "prev"
-                    }
-                  },
+                  "div",
+                  { staticClass: "carousel-item active" },
                   [
-                    _c("span", {
-                      staticClass: "carousel-control-prev-icon",
-                      attrs: { "aria-hidden": "true" }
-                    }),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
-                  ]
+                    _c("router-link", { attrs: { to: "/cadastroclube" } }, [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _c("img", {
+                          staticClass: "d-block w-100 img-fluid",
+                          attrs: { src: "/img/clube.jpeg", alt: "..." }
+                        })
+                      ])
+                    ])
+                  ],
+                  1
+                )
+              ]),
+              _vm._v(" "),
+              _vm._m(11),
+              _vm._v(" "),
+              _vm._m(12)
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _vm._m(13)
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row row-space" }, [
+      _c("div", { staticClass: "col-12" }, [
+        _c(
+          "nav",
+          {
+            staticClass:
+              "navbar nav-social grad-smart navbar-dark bg-light text-light"
+          },
+          [
+            _c("div", { staticClass: "col-4" }, [
+              _c("span", [
+                _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                _vm._v(" Rua Dr. Costa Valente. 217 - Brás - SP")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-4 text-center" }, [
+              _c("span", [
+                _c("div", { staticClass: "btn" }, [
+                  _c("i", { staticClass: "fab fa-twitter" })
+                ]),
+                _vm._v(
+                  " | \n                            \n                            "
                 ),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "carousel-control-next",
-                    attrs: {
-                      href: "#carouselExampleIndicators",
-                      role: "button",
-                      "data-slide": "next"
-                    }
-                  },
-                  [
-                    _c("span", {
-                      staticClass: "carousel-control-next-icon",
-                      attrs: { "aria-hidden": "true" }
-                    }),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
-                  ]
-                )
-              ]
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "row row-space" }, [
-          _c("div", { staticClass: "col-12" }, [
-            _vm._v("\n                Pessoal / Empresarial\n            ")
-          ])
+                _c("div", { staticClass: "btn" }, [
+                  _c("i", { staticClass: "fab fa-facebook-square" })
+                ]),
+                _vm._v("| \n                            "),
+                _c("div", { staticClass: "btn" }, [
+                  _c("i", { staticClass: "fab fa-google-plus-g" })
+                ]),
+                _vm._v(" | \n                            "),
+                _c("div", { staticClass: "btn" }, [
+                  _c("i", { staticClass: "fab fa-linkedin" })
+                ]),
+                _vm._v(" |\n                                "),
+                _c("div", { staticClass: "btn" }, [
+                  _c("i", { staticClass: "fab fa-instagram" })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-4 text-right" }, [
+              _c("span", [_vm._v("ENTRAR INSCREVA-SE")])
+            ])
+          ]
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row row-space" }, [
+      _c("div", { staticClass: "col-12 text-center" }, [
+        _c("span", { staticClass: "text-center" }, [
+          _vm._v("Português | Espanhol | Inglês | Francês")
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item dropdown" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link dropdown-toggle",
+          attrs: {
+            href: "#",
+            id: "navbarDropdown",
+            role: "button",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [
+          _vm._v(
+            "\n                                        Incorporadora\n                                        "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu",
+          attrs: { "aria-labelledby": "navbarDropdown" }
+        },
+        [
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Terrenos")
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Casas")
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Apartamentos")
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Salão Comercial")
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Sala Comercial")
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "dropdown-submenu" }, [
+      _c(
+        "a",
+        { staticClass: "dropdown-item", attrs: { tabindex: "-1", href: "#" } },
+        [_vm._v("Executados")]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "dropdown-menu" }, [
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Cartório Postal")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c(
+            "a",
+            {
+              attrs: { href: "http://www.redemegafox.com.br", target: "_blank" }
+            },
+            [_vm._v("Rede MegaFox")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Big Casa&Construção")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Farmelhor (oratório)")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("GBE Modas")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "dropdown-submenu" }, [
+      _c(
+        "a",
+        { staticClass: "dropdown-item", attrs: { tabindex: "-1", href: "#" } },
+        [_vm._v("Em Andamento")]
+      ),
+      _vm._v(" "),
+      _c("ul", { staticClass: "dropdown-menu" }, [
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Loja de Roupa")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Loja de Sapato")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Posto de Gasolina")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Supermercado")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Escola")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c("a", { attrs: { href: "#" } }, [_vm._v("Saiba mais...")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item dropdown" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link dropdown-toggle",
+          attrs: {
+            href: "#",
+            id: "navbarDropdown",
+            role: "button",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [
+          _vm._v(
+            "\n                                        Comunicação\n                                        "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu",
+          attrs: { "aria-labelledby": "navbarDropdown" }
+        },
+        [
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "http://www.redemegafox.com.br", target: "_blank" }
+            },
+            [_vm._v("Rádio/TV MegaFox")]
+          ),
+          _vm._v(" "),
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Jornal La Voz")
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item dropdown" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link dropdown-toggle",
+          attrs: {
+            href: "#",
+            id: "navbarDropdown",
+            role: "button",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [
+          _vm._v(
+            "\n                                    Eventos\n                                    "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu",
+          attrs: { "aria-labelledby": "navbarDropdown" }
+        },
+        [
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Palestras")
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Reuniões")
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+        _vm._v("Trabalhe Conosco")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item dropdown" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link dropdown-toggle",
+          attrs: {
+            href: "#",
+            id: "navbarDropdown",
+            role: "button",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [
+          _vm._v(
+            "\n                                    Parceiros\n                                    "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu",
+          attrs: { "aria-labelledby": "navbarDropdown" }
+        },
+        [
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Seja Parceiro")
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item dropdown" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link dropdown-toggle",
+          attrs: {
+            href: "#",
+            id: "navbarDropdown",
+            role: "button",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [
+          _vm._v(
+            "\n                                    Contatos\n                                    "
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu",
+          attrs: { "aria-labelledby": "navbarDropdown" }
+        },
+        [
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Geral")
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Diretoria")
+          ]),
+          _vm._v(" "),
+          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
+            _vm._v("Gestão")
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ol", { staticClass: "carousel-indicators" }, [
+      _c("li", {
+        staticClass: "active",
+        attrs: {
+          "data-target": "#carouselExampleIndicators",
+          "data-slide-to": "0"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "carousel-control-prev",
+        attrs: {
+          href: "#carouselExampleIndicators",
+          role: "button",
+          "data-slide": "prev"
+        }
+      },
+      [
+        _c("span", {
+          staticClass: "carousel-control-prev-icon",
+          attrs: { "aria-hidden": "true" }
+        }),
+        _vm._v(" "),
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "carousel-control-next",
+        attrs: {
+          href: "#carouselExampleIndicators",
+          role: "button",
+          "data-slide": "next"
+        }
+      },
+      [
+        _c("span", {
+          staticClass: "carousel-control-next-icon",
+          attrs: { "aria-hidden": "true" }
+        }),
+        _vm._v(" "),
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row-space" }, [
+      _c("img", {
+        staticClass: "img-fluid img-center",
+        attrs: { src: "/img/previa-corte.png", alt: "" }
+      })
     ])
   }
 ]

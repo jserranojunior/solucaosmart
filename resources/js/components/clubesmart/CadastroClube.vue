@@ -1,0 +1,200 @@
+ <template>
+     <div>
+         <div class="row row-space">
+             <div class="col-12 text-center">
+                 <h4>Cadastro Clube Smart</h4>
+             </div>
+         </div>
+
+
+       
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <input type="text" v-model="inputs.nome" class="form-control" placeholder="Nome Completo"> 
+             </div>
+         </div>
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.data_nascimento" v-mask="'99/99/9999'" class="form-control" placeholder="Data de Nascimento">
+                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                 <select name="estado_civil" class="form-control" v-model="inputs.estado_civil">
+                     <option disabled value="" > Estado Civil </option>
+                     <option value="Solteiro">Solteiro</option>
+                     <option>Casado</option>
+                     <option>Divorciado</option>
+                     <option>Viúvo</option>
+                     <option>Outros</option>
+                 </select>
+              </div>
+         </div>
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.rne" class="form-control" placeholder="RNE">
+                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.cpf" v-mask="'999.999.999.99'" class="form-control" placeholder="CPF">
+             </div>
+         </div>
+
+
+        <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.rg" v-mask="'99.999.999-9'" class="form-control" placeholder="RG">                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.cedula_identidade" class="form-control" placeholder="Cédula de Identidade">
+             </div>
+         </div>
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.celular" v-mask="'(99)99999-9999'" class="form-control" placeholder="Celular">
+                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.telefone" v-mask="'(99)9999-9999'" class="form-control" placeholder="Telefone">
+             </div>
+         </div>
+
+        <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.profissao" class="form-control" placeholder="Profissão">                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.nacionalidade" class="form-control" placeholder="Nacionalidade">
+             </div>
+         </div>
+
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <input type="text" v-model="inputs.email" class="form-control" placeholder="E-mail"> 
+             </div>
+         </div>
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <input type="text" v-model="inputs.logradouro" class="form-control" placeholder="Logradouro"> 
+             </div>             
+         </div>
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.cep" class="form-control" placeholder="CEP">                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.bairro" class="form-control" placeholder="Bairro">
+             </div>
+         </div>
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.numero" class="form-control" placeholder="Numero">                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.complemento" class="form-control" placeholder="Complemento">
+             </div>
+         </div>
+
+  <div class="row row-space-form justify-content-center">
+             <div class="col-lg-2 col-md-4">
+                 <input type="text" v-model="inputs.cidade" class="form-control" placeholder="Cidade">                
+             </div>
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.estado" class="form-control" placeholder="Estado">
+             </div>
+         </div>
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <textarea v-model="inputs.observacao" class="form-control" rows="3" placeholder="Observações"></textarea> 
+             </div>             
+         </div>
+
+               
+        
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8 text-right">
+                 <router-link to="/">
+                 <div class="btn btn-primary " @click="submit()">Cadastrar</div>
+                 </router-link>
+             </div>
+         </div>
+
+
+     </div>
+ </template>
+ 
+ <script>
+ import {
+    mapActions
+} from 'vuex'
+
+
+import AwesomeMask from 'awesome-mask'
+
+     export default {
+         name:"CadastroClube",
+         data(){
+             return{
+                 inputs:{}
+              }
+         },
+         methods:{
+              ...mapActions([
+            'SubmitPropClube',
+            'EnviarEmailClube',
+        ]),
+        submit(){
+            this.SubmitPropClube(this.inputs)
+            this.EnviarEmailClube(this.inputs)
+        },
+        changeBackground(){
+            const el = document.body;
+            el.classList.add('white-body');
+        }
+         },
+         beforeMount(){
+             this.inputs.nome = ""
+             this.inputs.data_nascimento = ""
+             this.inputs.estado_civil = ""
+             this.inputs.rne = ""
+             this.inputs.cpf = ""
+             this.inputs.telefone = ""
+             this.inputs.celular = ""
+             this.inputs.email = ""
+             this.inputs.profissao = ""
+             this.inputs.nacionalidade = ""
+             this.inputs.logradouro = ""
+             this.inputs.cep = ""
+             this.inputs.bairro= ""
+             this.inputs.numero = ""
+             this.inputs.complemento = ""
+             this.inputs.observacao = ""
+         },
+         mounted(){
+             this.changeBackground();
+         },
+          directives: {               
+                'mask': AwesomeMask 
+               } 
+     }
+ </script>
+ 
+ <style>
+.white-body{
+    background-color:#fff;
+}
+
+ .row-space-form{
+     margin-top:7px;
+ }
+ .row-space{
+     margin-top:20px;
+ }
+ </style>

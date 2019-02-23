@@ -28,5 +28,24 @@ class EmailController extends Controller
             'data' => ''              
         ]);
     }
+
+    public function clube(Request $request){
+
+
+    
+        $dados = ['dados' => $request->all()];
+
+       //return view('emails.bodymails')->with($dados);
+
+        Mail::send('emails.clube', $dados, function($message){
+            // $message->to('jorgeserranojunior@hotmail.com');
+            $message->to('contato@solucaosmart.com');
+            $message->subject('E-mail enviado pelo site da Solucão Smart');
+        });
+        return response()->json([
+            'message' => 'E-mail Enviado',  
+            'data' => ''              
+        ]);
+    }
 }
 
