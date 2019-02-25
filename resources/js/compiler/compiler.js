@@ -461,10 +461,33 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "HomeProg",
   mounted: function mounted() {
-    console.log('montado');
+    console.log("montado");
   }
 });
 
@@ -1730,6 +1753,8 @@ var render = function() {
                 "navbar grad-smart navbar-expand-lg navbar-dark bg-light"
             },
             [
+              _vm._m(2),
+              _vm._v(" "),
               _c(
                 "div",
                 {
@@ -1744,7 +1769,7 @@ var render = function() {
                         "navbar-nav mr-auto text-nowrap flex-row mx-md-auto"
                     },
                     [
-                      _vm._m(2),
+                      _vm._m(3),
                       _vm._v(" "),
                       _c("li", { staticClass: "nav-item dropdown" }, [
                         _c(
@@ -1760,11 +1785,7 @@ var render = function() {
                               "aria-expanded": "false"
                             }
                           },
-                          [
-                            _vm._v(
-                              "\n                                        Projetos Empresariais\n                                        "
-                            )
-                          ]
+                          [_vm._v("Projetos Empresariais")]
                         ),
                         _vm._v(" "),
                         _c(
@@ -1774,9 +1795,9 @@ var render = function() {
                             attrs: { "aria-labelledby": "navbarDropdown" }
                           },
                           [
-                            _vm._m(3),
-                            _vm._v(" "),
                             _vm._m(4),
+                            _vm._v(" "),
+                            _vm._m(5),
                             _vm._v(" "),
                             _c(
                               "a",
@@ -1811,7 +1832,7 @@ var render = function() {
                         )
                       ]),
                       _vm._v(" "),
-                      _vm._m(5),
+                      _vm._m(6),
                       _vm._v(" "),
                       _c("li", { staticClass: "nav-item dropdown" }, [
                         _c(
@@ -1827,11 +1848,7 @@ var render = function() {
                               "aria-expanded": "false"
                             }
                           },
-                          [
-                            _vm._v(
-                              "\n                                        Fintech\n                                        "
-                            )
-                          ]
+                          [_vm._v("Fintech")]
                         ),
                         _vm._v(" "),
                         _c(
@@ -1896,13 +1913,13 @@ var render = function() {
                         )
                       ]),
                       _vm._v(" "),
-                      _vm._m(6),
-                      _vm._v(" "),
                       _vm._m(7),
                       _vm._v(" "),
                       _vm._m(8),
                       _vm._v(" "),
-                      _vm._m(9)
+                      _vm._m(9),
+                      _vm._v(" "),
+                      _vm._m(10)
                     ]
                   )
                 ]
@@ -1924,7 +1941,7 @@ var render = function() {
               }
             },
             [
-              _vm._m(10),
+              _vm._m(11),
               _vm._v(" "),
               _c("div", { staticClass: "carousel-inner" }, [
                 _c(
@@ -1944,15 +1961,15 @@ var render = function() {
                 )
               ]),
               _vm._v(" "),
-              _vm._m(11),
+              _vm._m(12),
               _vm._v(" "),
-              _vm._m(12)
+              _vm._m(13)
             ]
           )
         ])
       ]),
       _vm._v(" "),
-      _vm._m(13)
+      _vm._m(14)
     ])
   ])
 }
@@ -1961,54 +1978,54 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row row-space" }, [
-      _c("div", { staticClass: "col-12" }, [
-        _c(
-          "nav",
-          {
-            staticClass:
-              "navbar nav-social grad-smart navbar-dark bg-light text-light"
-          },
-          [
-            _c("div", { staticClass: "col-4" }, [
+    return _c("div", { staticClass: "row row-space " }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "col-12 nav-social grad-smart  navbar-dark bg-light text-light"
+        },
+        [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-4 col-sm-12" }, [
               _c("span", [
                 _c("i", { staticClass: "fas fa-map-marker-alt" }),
-                _vm._v(" Rua Dr. Costa Valente. 217 - Brás - SP")
+                _vm._v(
+                  " Rua Dr. Costa Valente. 217 - Brás - SP\n                        "
+                )
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-4 text-center" }, [
+            _c("div", { staticClass: "col-md-4 col-sm-12 text-center" }, [
               _c("span", [
                 _c("div", { staticClass: "btn" }, [
                   _c("i", { staticClass: "fab fa-twitter" })
                 ]),
-                _vm._v(
-                  " | \n                            \n                            "
-                ),
+                _vm._v("\n\n                  |\n                  "),
                 _c("div", { staticClass: "btn" }, [
                   _c("i", { staticClass: "fab fa-facebook-square" })
                 ]),
-                _vm._v("| \n                            "),
+                _vm._v("|\n                  "),
                 _c("div", { staticClass: "btn" }, [
                   _c("i", { staticClass: "fab fa-google-plus-g" })
                 ]),
-                _vm._v(" | \n                            "),
+                _vm._v("|\n                  "),
                 _c("div", { staticClass: "btn" }, [
                   _c("i", { staticClass: "fab fa-linkedin" })
                 ]),
-                _vm._v(" |\n                                "),
+                _vm._v("|\n                  "),
                 _c("div", { staticClass: "btn" }, [
                   _c("i", { staticClass: "fab fa-instagram" })
                 ])
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-4 text-right" }, [
+            _c("div", { staticClass: "col-md-4 col-sm-12 text-right" }, [
               _c("span", [_vm._v("ENTRAR INSCREVA-SE")])
             ])
-          ]
-        )
-      ])
+          ])
+        ]
+      )
     ])
   },
   function() {
@@ -2022,6 +2039,26 @@ var staticRenderFns = [
         ])
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "navbar-toggler text-center text-white",
+        attrs: {
+          type: "button",
+          "data-toggle": "collapse",
+          "data-target": "#navbarSupportedContent",
+          "aria-controls": "navbarSupportedContent",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation"
+        }
+      },
+      [_c("span", { staticClass: "navbar-toggler-icon" })]
+    )
   },
   function() {
     var _vm = this
@@ -2041,11 +2078,7 @@ var staticRenderFns = [
             "aria-expanded": "false"
           }
         },
-        [
-          _vm._v(
-            "\n                                        Incorporadora\n                                        "
-          )
-        ]
+        [_vm._v("Incorporadora")]
       ),
       _vm._v(" "),
       _c(
@@ -2174,11 +2207,7 @@ var staticRenderFns = [
             "aria-expanded": "false"
           }
         },
-        [
-          _vm._v(
-            "\n                                        Comunicação\n                                        "
-          )
-        ]
+        [_vm._v("Comunicação")]
       ),
       _vm._v(" "),
       _c(
@@ -2222,11 +2251,7 @@ var staticRenderFns = [
             "aria-expanded": "false"
           }
         },
-        [
-          _vm._v(
-            "\n                                    Eventos\n                                    "
-          )
-        ]
+        [_vm._v("Eventos")]
       ),
       _vm._v(" "),
       _c(
@@ -2275,11 +2300,7 @@ var staticRenderFns = [
             "aria-expanded": "false"
           }
         },
-        [
-          _vm._v(
-            "\n                                    Parceiros\n                                    "
-          )
-        ]
+        [_vm._v("Parceiros")]
       ),
       _vm._v(" "),
       _c(
@@ -2314,11 +2335,7 @@ var staticRenderFns = [
             "aria-expanded": "false"
           }
         },
-        [
-          _vm._v(
-            "\n                                    Contatos\n                                    "
-          )
-        ]
+        [_vm._v("Contatos")]
       ),
       _vm._v(" "),
       _c(
