@@ -18,7 +18,7 @@ export default {
           context.commit('SUBMITPROP',data)
         } ,
         EnviarEmail(context, data) {        
-          let url = '/solucaosmart/api/send';        
+          let url = '/api/send';        
           axios
               .post(url, data)
                 .then(response => context.commit('ENVIAR_EMAIL', response.data))

@@ -52545,7 +52545,7 @@ __webpack_require__.r(__webpack_exports__);
       context.commit('SUBMITPROPCLUBE', data);
     },
     EnviarEmailClube: function EnviarEmailClube(context, data) {
-      var url = '/solucaosmart/api/send/clube';
+      var url = '/api/send/clube';
       axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(url, data).then(function (response) {
         return context.commit('ENVIAR_EMAIL_CLUBE', response.data);
       }).catch(function (error) {
@@ -52761,7 +52761,7 @@ __webpack_require__.r(__webpack_exports__);
       context.commit('SUBMITPROP', data);
     },
     EnviarEmail: function EnviarEmail(context, data) {
-      var url = '/solucaosmart/api/send';
+      var url = '/api/send';
       axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(url, data).then(function (response) {
         return context.commit('ENVIAR_EMAIL', response.data);
       }).catch(function (error) {

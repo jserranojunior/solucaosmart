@@ -18,7 +18,7 @@ export default {
           context.commit('SUBMITPROPCLUBE',data)
         } ,
         EnviarEmailClube(context, data) {        
-          let url = '/solucaosmart/api/send/clube';        
+          let url = '/api/send/clube';        
           axios
               .post(url, data)
                 .then(response => context.commit('ENVIAR_EMAIL_CLUBE', response.data))
