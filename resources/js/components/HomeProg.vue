@@ -3,40 +3,40 @@
         <div class="container-fluid">
             <div class="row row-space ">
     
-                <div class="col-12 nav-social grad-smart  navbar-dark bg-light text-light">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12">
+                <div class="col-12 nav-social   navbar-dark bg-light text-light">
+                    <div class="navbar grad-smart">
+                        <div class="col-md-4 sm-align-center col-sm-12">
+                            <div class="btn"> <i class="fas fa-map-marker-alt"></i> Rua Dr. Costa Valente. 217 - Brás - SP</div>
+                        </div>
+    
+                        <div class="col-md-4 sm-align-center col-sm-12 text-center">
                             <span>
-                            <i class="fas fa-map-marker-alt"></i> Rua Dr. Costa Valente. 217 - Brás - SP
-                            </span>
-                            </div>
-    
-                <div class="col-md-4 col-sm-12 text-center">
-                    <span>
-                      <div class="btn">
-                        <i class="fab fa-twitter"></i>
-                      </div>
-    
-                      |
-                      <div class="btn">
-                        <i class="fab fa-facebook-square"></i>
-                      </div>|
-                      <div class="btn">
-                        <i class="fab fa-google-plus-g"></i>
-                      </div>|
-                      <div class="btn">
-                        <i class="fab fa-linkedin"></i>
-                      </div>|
-                      <div class="btn">
-                        <i class="fab fa-instagram"></i>
-                      </div>
-                    </span>
-                </div>
+                          <div class="btn">
+                            <i class="fab fa-twitter"></i>
+                          </div>
+        
+                          |
+                          <div class="btn">
+                            <i class="fab fa-facebook-square"></i>
+                          </div>|
+                          <div class="btn">
+                            <i class="fab fa-google-plus-g"></i>
+                          </div>|
+                          <div class="btn">
+                            <i class="fab fa-linkedin"></i>
+                          </div>|
+                          <div class="btn">
+                            <i class="fab fa-instagram"></i>
+                          </div>
+                        </span>
+                        </div>
     
     
-                <div class="col-md-4 col-sm-12 text-right">
-                    <span>ENTRAR INSCREVA-SE</span>
-                </div>
+                        <div class="col-md-4 sm-align-center col-sm-12 text-right">
+                            <div class="btn sm-align-center">ENTRAR </div>
+    
+                            <div class="btn sm-align-center">INSCREVA-SE</div>
+                        </div>
                     </div>
                 </div>
     
@@ -46,15 +46,19 @@
     
             <div class="row row-space">
                 <div class="col-12 text-center">
-                    <span class="text-center">Português | Espanhol | Inglês | Francês</span>
+                    <span class="text-center">
+                        <img src="/img/bandeiras/portugues.png" class="img-fluid img-bandeira" alt=""> Português | 
+                        <img src="/img/bandeiras/espanhol.png" class="img-fluid img-bandeira" alt=""> Espanhol | 
+                        <img src="/img/bandeiras/ingles.png" class="img-fluid img-bandeira" alt=""> Inglês | 
+                        <img src="/img/bandeiras/frances.png" class="img-fluid img-bandeira" alt=""> Francês</span>
                 </div>
             </div>
             <div class="row row-space">
                 <div class="col-12">
                     <nav class="navbar grad-smart navbar-expand-lg navbar-dark bg-light">
                         <button class="navbar-toggler text-center text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto text-nowrap flex-row mx-md-auto">
                                 <li class="nav-item dropdown">
@@ -188,27 +192,27 @@
                             <div class="carousel-item active">
                                 <router-link to="/clubesmart">
                                     <a href="#">
-                        <img src="/img/clube.jpeg" class="d-block w-100 img-fluid" alt="...">
-                      </a>
+                            <img src="/img/clube.jpeg" class="d-block w-100 img-fluid" alt="...">
+                          </a>
                                 </router-link>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
                         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
                     </div>
                 </div>
             </div>
             <!-- <div class="row row-space">
-                        <div class="col-12">
-                            Pessoal / Empresarial
-                        </div>
-          </div>-->
+                            <div class="col-12">
+                                Pessoal / Empresarial
+                            </div>
+              </div>-->
             <div class="row-space">
                 <!-- /solucaosmart -->
                 <img src="/img/previa-corte.png" class="img-fluid img-center" alt>
@@ -288,4 +292,19 @@ export default {
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
+
+img.img-fluid.img-bandeira {
+    width: 22px;
+}
+
+@media (max-width: 575.98px) { 
+    .sm-align-center{
+        text-align: center! important;
+            }
+            .flex-row {
+    flex-direction: column! important;
+}
+ }
+
+
 </style>

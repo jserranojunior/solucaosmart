@@ -484,6 +484,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "HomeProg",
   mounted: function mounted() {
@@ -557,7 +561,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.grad-smart[data-v-13ea85c4] {\n    background-image: linear-gradient(to left, #ea3232, #ff9900);\n}\n.navbar-dark .navbar-nav .nav-link[data-v-13ea85c4] {\n    color: #f8f9fa;\n}\n.dropdown-item>a[data-v-13ea85c4] {\n    color: black;\n}\n\n/*submenu*/\n.dropdown-submenu[data-v-13ea85c4] {\n    position: relative;\n}\n.dropdown-submenu>.dropdown-menu[data-v-13ea85c4] {\n    top: 0;\n    left: 100%;\n    margin-top: -9px;\n    margin-left: -1px;\n    -webkit-border-radius: 0 6px 6px 6px;\n    -moz-border-radius: 0 6px 6px;\n    border-radius: 0 6px 6px 6px;\n}\n.dropdown-submenu:hover>.dropdown-menu[data-v-13ea85c4] {\n    display: block;\n}\n.dropdown-submenu>a[data-v-13ea85c4]:after {\n    display: block;\n    content: \" \";\n    float: right;\n    width: 0;\n    height: 0;\n    border-color: transparent;\n    border-style: solid;\n    border-width: 5px 0 5px 5px;\n    border-left-color: #ccc;\n    margin-top: 5px;\n    margin-right: -10px;\n}\n.dropdown-submenu:hover>a[data-v-13ea85c4]:after {\n    border-left-color: #fff;\n}\n.dropdown-submenu.pull-left[data-v-13ea85c4] {\n    float: none;\n}\n.dropdown-submenu.pull-left>.dropdown-menu[data-v-13ea85c4] {\n    left: -100%;\n    margin-left: 10px;\n    -webkit-border-radius: 6px 0 6px 6px;\n    -moz-border-radius: 6px 0 6px 6px;\n    border-radius: 6px 0 6px 6px;\n}\n", ""]);
+exports.push([module.i, "\n.grad-smart[data-v-13ea85c4] {\n    background-image: linear-gradient(to left, #ea3232, #ff9900);\n}\n.navbar-dark .navbar-nav .nav-link[data-v-13ea85c4] {\n    color: #f8f9fa;\n}\n.dropdown-item>a[data-v-13ea85c4] {\n    color: black;\n}\n\n/*submenu*/\n.dropdown-submenu[data-v-13ea85c4] {\n    position: relative;\n}\n.dropdown-submenu>.dropdown-menu[data-v-13ea85c4] {\n    top: 0;\n    left: 100%;\n    margin-top: -9px;\n    margin-left: -1px;\n    -webkit-border-radius: 0 6px 6px 6px;\n    -moz-border-radius: 0 6px 6px;\n    border-radius: 0 6px 6px 6px;\n}\n.dropdown-submenu:hover>.dropdown-menu[data-v-13ea85c4] {\n    display: block;\n}\n.dropdown-submenu>a[data-v-13ea85c4]:after {\n    display: block;\n    content: \" \";\n    float: right;\n    width: 0;\n    height: 0;\n    border-color: transparent;\n    border-style: solid;\n    border-width: 5px 0 5px 5px;\n    border-left-color: #ccc;\n    margin-top: 5px;\n    margin-right: -10px;\n}\n.dropdown-submenu:hover>a[data-v-13ea85c4]:after {\n    border-left-color: #fff;\n}\n.dropdown-submenu.pull-left[data-v-13ea85c4] {\n    float: none;\n}\n.dropdown-submenu.pull-left>.dropdown-menu[data-v-13ea85c4] {\n    left: -100%;\n    margin-left: 10px;\n    -webkit-border-radius: 6px 0 6px 6px;\n    -moz-border-radius: 6px 0 6px 6px;\n    border-radius: 6px 0 6px 6px;\n}\nimg.img-fluid.img-bandeira[data-v-13ea85c4] {\n    width: 22px;\n}\n@media (max-width: 575.98px) {\n.sm-align-center[data-v-13ea85c4]{\n        text-align: center! important;\n}\n.flex-row[data-v-13ea85c4] {\n    flex-direction: column! important;\n}\n}\n\n\n", ""]);
 
 // exports
 
@@ -1981,48 +1985,59 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row row-space " }, [
       _c(
         "div",
-        {
-          staticClass:
-            "col-12 nav-social grad-smart  navbar-dark bg-light text-light"
-        },
+        { staticClass: "col-12 nav-social   navbar-dark bg-light text-light" },
         [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-4 col-sm-12" }, [
-              _c("span", [
+          _c("div", { staticClass: "navbar grad-smart" }, [
+            _c("div", { staticClass: "col-md-4 sm-align-center col-sm-12" }, [
+              _c("div", { staticClass: "btn" }, [
                 _c("i", { staticClass: "fas fa-map-marker-alt" }),
-                _vm._v(
-                  " Rua Dr. Costa Valente. 217 - Brás - SP\n                        "
-                )
+                _vm._v(" Rua Dr. Costa Valente. 217 - Brás - SP")
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-md-4 col-sm-12 text-center" }, [
-              _c("span", [
-                _c("div", { staticClass: "btn" }, [
-                  _c("i", { staticClass: "fab fa-twitter" })
-                ]),
-                _vm._v("\n\n                  |\n                  "),
-                _c("div", { staticClass: "btn" }, [
-                  _c("i", { staticClass: "fab fa-facebook-square" })
-                ]),
-                _vm._v("|\n                  "),
-                _c("div", { staticClass: "btn" }, [
-                  _c("i", { staticClass: "fab fa-google-plus-g" })
-                ]),
-                _vm._v("|\n                  "),
-                _c("div", { staticClass: "btn" }, [
-                  _c("i", { staticClass: "fab fa-linkedin" })
-                ]),
-                _vm._v("|\n                  "),
-                _c("div", { staticClass: "btn" }, [
-                  _c("i", { staticClass: "fab fa-instagram" })
+            _c(
+              "div",
+              { staticClass: "col-md-4 sm-align-center col-sm-12 text-center" },
+              [
+                _c("span", [
+                  _c("div", { staticClass: "btn" }, [
+                    _c("i", { staticClass: "fab fa-twitter" })
+                  ]),
+                  _vm._v(
+                    "\n    \n                      |\n                      "
+                  ),
+                  _c("div", { staticClass: "btn" }, [
+                    _c("i", { staticClass: "fab fa-facebook-square" })
+                  ]),
+                  _vm._v("|\n                      "),
+                  _c("div", { staticClass: "btn" }, [
+                    _c("i", { staticClass: "fab fa-google-plus-g" })
+                  ]),
+                  _vm._v("|\n                      "),
+                  _c("div", { staticClass: "btn" }, [
+                    _c("i", { staticClass: "fab fa-linkedin" })
+                  ]),
+                  _vm._v("|\n                      "),
+                  _c("div", { staticClass: "btn" }, [
+                    _c("i", { staticClass: "fab fa-instagram" })
+                  ])
                 ])
-              ])
-            ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "col-md-4 col-sm-12 text-right" }, [
-              _c("span", [_vm._v("ENTRAR INSCREVA-SE")])
-            ])
+            _c(
+              "div",
+              { staticClass: "col-md-4 sm-align-center col-sm-12 text-right" },
+              [
+                _c("div", { staticClass: "btn sm-align-center" }, [
+                  _vm._v("ENTRAR ")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "btn sm-align-center" }, [
+                  _vm._v("INSCREVA-SE")
+                ])
+              ]
+            )
           ])
         ]
       )
@@ -2035,7 +2050,26 @@ var staticRenderFns = [
     return _c("div", { staticClass: "row row-space" }, [
       _c("div", { staticClass: "col-12 text-center" }, [
         _c("span", { staticClass: "text-center" }, [
-          _vm._v("Português | Espanhol | Inglês | Francês")
+          _c("img", {
+            staticClass: "img-fluid img-bandeira",
+            attrs: { src: "/img/bandeiras/portugues.png", alt: "" }
+          }),
+          _vm._v(" Português | \n                    "),
+          _c("img", {
+            staticClass: "img-fluid img-bandeira",
+            attrs: { src: "/img/bandeiras/espanhol.png", alt: "" }
+          }),
+          _vm._v(" Espanhol | \n                    "),
+          _c("img", {
+            staticClass: "img-fluid img-bandeira",
+            attrs: { src: "/img/bandeiras/ingles.png", alt: "" }
+          }),
+          _vm._v(" Inglês | \n                    "),
+          _c("img", {
+            staticClass: "img-fluid img-bandeira",
+            attrs: { src: "/img/bandeiras/frances.png", alt: "" }
+          }),
+          _vm._v(" Francês")
         ])
       ])
     ])
