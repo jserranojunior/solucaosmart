@@ -124,7 +124,7 @@
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-4 col-md-8 text-right">
                  <router-link to="/">
-                 <div class="btn btn-primary " @click="submit()">Cadastrar</div>
+                 <div class="btn btn-primary ">Enviar</div>
                  </router-link>
              </div>
          </div>
