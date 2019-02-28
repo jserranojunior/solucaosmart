@@ -14130,6 +14130,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "HomeProg",
   mounted: function mounted() {
@@ -14332,6 +14335,12 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -14355,7 +14364,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     this.inputs.nome = "";
     this.inputs.data_nascimento = "";
     this.inputs.estado_civil = "";
-    this.inputs.rne = "";
     this.inputs.cpf = "";
     this.inputs.telefone = "";
     this.inputs.celular = "";
@@ -14368,6 +14376,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     this.inputs.numero = "";
     this.inputs.complemento = "";
     this.inputs.observacao = "";
+    this.inputs.tipo_logradouro = "";
   },
   mounted: function mounted() {
     this.changeBackground();
@@ -14977,9 +14986,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -15004,7 +15010,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     this.inputs.nome = "";
     this.inputs.data_nascimento = "";
     this.inputs.estado_civil = "";
-    this.inputs.rne = "";
     this.inputs.cpf = "";
     this.inputs.telefone = "";
     this.inputs.celular = "";
@@ -35231,6 +35236,16 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("li", { staticClass: "dropdown-item" }, [
           _c("a", { attrs: { href: "#" } }, [_vm._v("GBE Modas")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c(
+            "a",
+            {
+              attrs: { href: "http://www.shopsmart.com.br", target: "_blank" }
+            },
+            [_vm._v("Shop Smart")]
+          )
         ])
       ])
     ])
@@ -35703,19 +35718,19 @@ var render = function() {
             {
               name: "model",
               rawName: "v-model",
-              value: _vm.inputs.rne,
-              expression: "inputs.rne"
+              value: _vm.inputs.rg,
+              expression: "inputs.rg"
             }
           ],
           staticClass: "form-control",
-          attrs: { type: "text", placeholder: "RNE" },
-          domProps: { value: _vm.inputs.rne },
+          attrs: { type: "text", placeholder: "RNE/RNM/RG/CI" },
+          domProps: { value: _vm.inputs.rg },
           on: {
             input: function($event) {
               if ($event.target.composing) {
                 return
               }
-              _vm.$set(_vm.inputs, "rne", $event.target.value)
+              _vm.$set(_vm.inputs, "rg", $event.target.value)
             }
           }
         })
@@ -35746,62 +35761,6 @@ var render = function() {
                 return
               }
               _vm.$set(_vm.inputs, "cpf", $event.target.value)
-            }
-          }
-        })
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
-      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.inputs.rg,
-              expression: "inputs.rg"
-            },
-            {
-              name: "mask",
-              rawName: "v-mask",
-              value: "99.999.999-9",
-              expression: "'99.999.999-9'"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: { type: "text", placeholder: "RG" },
-          domProps: { value: _vm.inputs.rg },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.inputs, "rg", $event.target.value)
-            }
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.inputs.cedula_identidade,
-              expression: "inputs.cedula_identidade"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: { type: "text", placeholder: "Cédula de Identidade" },
-          domProps: { value: _vm.inputs.cedula_identidade },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.inputs, "cedula_identidade", $event.target.value)
             }
           }
         })
@@ -35871,7 +35830,7 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "row row-space-form justify-content-center" }, [
-      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
+      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
         _c("input", {
           directives: [
             {
@@ -35890,30 +35849,6 @@ var render = function() {
                 return
               }
               _vm.$set(_vm.inputs, "profissao", $event.target.value)
-            }
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.inputs.nacionalidade,
-              expression: "inputs.nacionalidade"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: { type: "text", placeholder: "Nacionalidade" },
-          domProps: { value: _vm.inputs.nacionalidade },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.inputs, "nacionalidade", $event.target.value)
             }
           }
         })
@@ -35947,6 +35882,81 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "row row-space-form justify-content-center" }, [
+      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.nacionalidade,
+              expression: "inputs.nacionalidade"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: { type: "text", placeholder: "Nacionalidade" },
+          domProps: { value: _vm.inputs.nacionalidade },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "nacionalidade", $event.target.value)
+            }
+          }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
+        _c(
+          "select",
+          {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.inputs.tipo_logradouro,
+                expression: "inputs.tipo_logradouro"
+              }
+            ],
+            staticClass: "form-control",
+            on: {
+              change: function($event) {
+                var $$selectedVal = Array.prototype.filter
+                  .call($event.target.options, function(o) {
+                    return o.selected
+                  })
+                  .map(function(o) {
+                    var val = "_value" in o ? o._value : o.value
+                    return val
+                  })
+                _vm.$set(
+                  _vm.inputs,
+                  "tipo_logradouro",
+                  $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+                )
+              }
+            }
+          },
+          [
+            _c("option", { attrs: { disabled: "", value: "" } }, [
+              _vm._v(" Tipo Logradouro ")
+            ]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "Rua" } }, [_vm._v("Rua")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "Avenida" } }, [_vm._v("Avenida")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "Alameda" } }, [_vm._v("Alameda")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "Alameda" } }, [_vm._v("Viela")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "Alameda" } }, [_vm._v("Estrada")])
+          ]
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
       _c("div", { staticClass: "col-lg-4 col-md-8" }, [
         _c("input", {
           directives: [
@@ -35958,7 +35968,7 @@ var render = function() {
             }
           ],
           staticClass: "form-control",
-          attrs: { type: "text", placeholder: "Logradouro" },
+          attrs: { type: "text", placeholder: "Logradouro / Endereço" },
           domProps: { value: _vm.inputs.logradouro },
           on: {
             input: function($event) {
@@ -37629,19 +37639,19 @@ var render = function() {
             {
               name: "model",
               rawName: "v-model",
-              value: _vm.inputs.rne,
-              expression: "inputs.rne"
+              value: _vm.inputs.rg,
+              expression: "inputs.rg"
             }
           ],
           staticClass: "form-control",
-          attrs: { type: "text", placeholder: "RNE" },
-          domProps: { value: _vm.inputs.rne },
+          attrs: { type: "text", placeholder: "RNE/RNM/RG/CI" },
+          domProps: { value: _vm.inputs.rg },
           on: {
             input: function($event) {
               if ($event.target.composing) {
                 return
               }
-              _vm.$set(_vm.inputs, "rne", $event.target.value)
+              _vm.$set(_vm.inputs, "rg", $event.target.value)
             }
           }
         })
@@ -37672,56 +37682,6 @@ var render = function() {
                 return
               }
               _vm.$set(_vm.inputs, "cpf", $event.target.value)
-            }
-          }
-        })
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
-      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.inputs.rg,
-              expression: "inputs.rg"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: { type: "text", placeholder: "RG/CI" },
-          domProps: { value: _vm.inputs.rg },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.inputs, "rg", $event.target.value)
-            }
-          }
-        })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.inputs.nacionalidade,
-              expression: "inputs.nacionalidade"
-            }
-          ],
-          staticClass: "form-control",
-          attrs: { type: "text", placeholder: "Nacionalidade" },
-          domProps: { value: _vm.inputs.nacionalidade },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.inputs, "nacionalidade", $event.target.value)
             }
           }
         })
@@ -37817,7 +37777,31 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "row row-space-form justify-content-center" }, [
-      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
+      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.nacionalidade,
+              expression: "inputs.nacionalidade"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: { type: "text", placeholder: "Nacionalidade" },
+          domProps: { value: _vm.inputs.nacionalidade },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "nacionalidade", $event.target.value)
+            }
+          }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-lg-2 col-md-4" }, [
         _c(
           "select",
           {
@@ -37855,7 +37839,13 @@ var render = function() {
             _vm._v(" "),
             _c("option", { attrs: { value: "Rua" } }, [_vm._v("Rua")]),
             _vm._v(" "),
-            _c("option", { attrs: { value: "Avenida" } }, [_vm._v("Avenida")])
+            _c("option", { attrs: { value: "Avenida" } }, [_vm._v("Avenida")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "Alameda" } }, [_vm._v("Alameda")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "Alameda" } }, [_vm._v("Viela")]),
+            _vm._v(" "),
+            _c("option", { attrs: { value: "Alameda" } }, [_vm._v("Estrada")])
           ]
         )
       ])
@@ -37873,7 +37863,7 @@ var render = function() {
             }
           ],
           staticClass: "form-control",
-          attrs: { type: "text", placeholder: "Logradouro" },
+          attrs: { type: "text", placeholder: "Logradouro / Endereço" },
           domProps: { value: _vm.inputs.logradouro },
           on: {
             input: function($event) {
@@ -38069,18 +38059,7 @@ var render = function() {
         { staticClass: "col-lg-4 col-md-8 text-right" },
         [
           _c("router-link", { attrs: { to: "/" } }, [
-            _c(
-              "div",
-              {
-                staticClass: "btn btn-primary ",
-                on: {
-                  click: function($event) {
-                    _vm.submit()
-                  }
-                }
-              },
-              [_vm._v("Cadastrar")]
-            )
+            _c("div", { staticClass: "btn btn-primary " }, [_vm._v("Enviar")])
           ])
         ],
         1

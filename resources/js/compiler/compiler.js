@@ -488,6 +488,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "HomeProg",
   mounted: function mounted() {
@@ -2181,6 +2184,16 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("li", { staticClass: "dropdown-item" }, [
           _c("a", { attrs: { href: "#" } }, [_vm._v("GBE Modas")])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "dropdown-item" }, [
+          _c(
+            "a",
+            {
+              attrs: { href: "http://www.shopsmart.com.br", target: "_blank" }
+            },
+            [_vm._v("Shop Smart")]
+          )
         ])
       ])
     ])

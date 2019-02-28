@@ -7,7 +7,7 @@ Minha data de nascimento é: @if($dados['data_nascimento']) {{$dados['data_nasci
 
 Meu estado civil: @if($dados['estado_civil']) {{$dados['estado_civil']}} @endif <br>
 
-Meu RNE: @if($dados['rne']) {{$dados['rne']}} @endif <br>
+Meu RNE/RNM/RG/CI: @if($dados['rg']) {{$dados['rg']}} @endif <br>
 
 Meu CPF: @if($dados['cpf']) {{$dados['cpf']}} @endif <br>
 
@@ -21,7 +21,9 @@ Minha Profissão: @if($dados['profissao']) {{$dados['profissao']}} @endif <br>
 
 Minha nacionalidade: @if($dados['nacionalidade']) {{$dados['nacionalidade']}} @endif <br>
 
-Meu endereço: @if($dados['logradouro']) {{$dados['logradouro']}} @endif <br>
+Meu tipo de endereço: @if($dados['logradouro']) {{$dados['logradouro']}} @endif <br>
+
+Meu endereço: @if($dados['tipo_logradouro']) {{$dados['tipo_logradouro']}} @endif <br>
 
 CEP: @if($dados['cep']) {{$dados['cep']}} @endif, 
 

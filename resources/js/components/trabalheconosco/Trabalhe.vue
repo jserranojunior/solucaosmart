@@ -29,24 +29,14 @@
               </div>
          </div>
 
-         <div class="row row-space-form justify-content-center">
-             <div class="col-lg-2 col-md-4">
-                 <input type="text" v-model="inputs.rne" class="form-control" placeholder="RNE">
-                
-             </div>
-             <div class="col-lg-2 col-md-4">
-                  <input type="text" v-model="inputs.cpf" v-mask="'999.999.999.99'" class="form-control" placeholder="CPF">
-             </div>
-         </div>
-
-
+        
         <div class="row row-space-form justify-content-center">
              <div class="col-lg-2 col-md-4">
-                 <input type="text" v-model="inputs.rg"  class="form-control" placeholder="RG/CI">                
+                 <input type="text" v-model="inputs.rg"  class="form-control" placeholder="RNE/RNM/RG/CI">                
              </div>
 
-              <div class="col-lg-2 col-md-4">
-                  <input type="text" v-model="inputs.nacionalidade" class="form-control" placeholder="Nacionalidade">
+             <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.cpf" v-mask="'999.999.999.99'" class="form-control" placeholder="CPF">
              </div>
             
          </div>
@@ -71,18 +61,25 @@
          </div>
 
          <div class="row row-space-form justify-content-center">
-             <div class="col-lg-4 col-md-8">
+              <div class="col-lg-2 col-md-4">
+                  <input type="text" v-model="inputs.nacionalidade" class="form-control" placeholder="Nacionalidade">
+             </div>
+
+             <div class="col-lg-2 col-md-4">
                  <select v-model="inputs.tipo_logradouro" class="form-control">
                      <option disabled value="" > Tipo Logradouro </option>
                      <option value="Rua">Rua</option>
                      <option value="Avenida">Avenida</option>
+                     <option value="Alameda">Alameda</option>
+                     <option value="Alameda">Viela</option>
+                     <option value="Alameda">Estrada</option>
                  </select>
              </div>             
          </div>
 
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-4 col-md-8">
-                 <input type="text" v-model="inputs.logradouro" class="form-control" placeholder="Logradouro"> 
+                 <input type="text" v-model="inputs.logradouro" class="form-control" placeholder="Logradouro / Endereço"> 
              </div>             
          </div>
 
@@ -165,8 +162,7 @@ import AwesomeMask from 'awesome-mask'
          beforeMount(){
              this.inputs.nome = ""
              this.inputs.data_nascimento = ""
-             this.inputs.estado_civil = ""
-             this.inputs.rne = ""
+             this.inputs.estado_civil = ""             
              this.inputs.cpf = ""
              this.inputs.telefone = ""
              this.inputs.celular = ""

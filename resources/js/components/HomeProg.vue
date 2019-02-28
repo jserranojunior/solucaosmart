@@ -94,6 +94,9 @@
                                                 <li class="dropdown-item">
                                                     <a href="#">GBE Modas</a>
                                                 </li>
+                                                <li class="dropdown-item">
+                                                    <a href="http://www.shopsmart.com.br" target="_blank">Shop Smart</a>
+                                                </li>
                                             </ul>
                                         </li>
     
