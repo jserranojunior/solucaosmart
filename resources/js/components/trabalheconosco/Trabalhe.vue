@@ -112,6 +112,38 @@
 
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-4 col-md-8">
+                 <textarea v-model="inputs.cursos" class="form-control" rows="5" placeholder="Escreva cursos que você tenha"></textarea> 
+             </div>             
+         </div>
+
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <textarea v-model="inputs.experiencias" class="form-control" rows="5" placeholder="Escreva suas experiencias profissionais"></textarea> 
+             </div>             
+         </div>
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <textarea v-model="inputs.formacao" class="form-control" rows="5" placeholder="Escreva seu grau academico e onde estudou"></textarea> 
+             </div>             
+         </div>
+
+<div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <textarea v-model="inputs.idiomas" class="form-control" rows="5" placeholder="Escreva idiomas que fala"></textarea> 
+             </div>             
+         </div>
+
+           <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
+                 <textarea v-model="inputs.pretencao" class="form-control" rows="5" placeholder="Escreva areas que gostaria de atuar"></textarea> 
+             </div>             
+         </div>
+
+
+         <div class="row row-space-form justify-content-center">
+             <div class="col-lg-4 col-md-8">
                  <textarea v-model="inputs.observacao" class="form-control" rows="3" placeholder="Observações"></textarea> 
              </div>             
          </div>

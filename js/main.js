@@ -14986,6 +14986,38 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -38021,6 +38053,145 @@ var render = function() {
                 return
               }
               _vm.$set(_vm.inputs, "estado", $event.target.value)
+            }
+          }
+        })
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
+      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
+        _c("textarea", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.cursos,
+              expression: "inputs.cursos"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: { rows: "5", placeholder: "Escreva cursos que você tenha" },
+          domProps: { value: _vm.inputs.cursos },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "cursos", $event.target.value)
+            }
+          }
+        })
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
+      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
+        _c("textarea", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.experiencias,
+              expression: "inputs.experiencias"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            rows: "5",
+            placeholder: "Escreva suas experiencias profissionais"
+          },
+          domProps: { value: _vm.inputs.experiencias },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "experiencias", $event.target.value)
+            }
+          }
+        })
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
+      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
+        _c("textarea", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.formacao,
+              expression: "inputs.formacao"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            rows: "5",
+            placeholder: "Escreva seu grau academico e onde estudou"
+          },
+          domProps: { value: _vm.inputs.formacao },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "formacao", $event.target.value)
+            }
+          }
+        })
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
+      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
+        _c("textarea", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.idiomas,
+              expression: "inputs.idiomas"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: { rows: "5", placeholder: "Escreva idiomas que fala" },
+          domProps: { value: _vm.inputs.idiomas },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "idiomas", $event.target.value)
+            }
+          }
+        })
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row row-space-form justify-content-center" }, [
+      _c("div", { staticClass: "col-lg-4 col-md-8" }, [
+        _c("textarea", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.inputs.pretencao,
+              expression: "inputs.pretencao"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            rows: "5",
+            placeholder: "Escreva areas que gostaria de atuar"
+          },
+          domProps: { value: _vm.inputs.pretencao },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.inputs, "pretencao", $event.target.value)
             }
           }
         })
