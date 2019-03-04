@@ -49,8 +49,8 @@ class EmailController extends Controller
         $dados = ['dados' => $request->all()];       
 
         Mail::send('emails.trabalheconosco', $dados, function($message){
-            $message->to('jorgeserranojunior@hotmail.com');
-            // $message->to('contato@solucaosmart.com.br');
+            // $message->to('jorgeserranojunior@hotmail.com');
+            $message->to('contato@solucaosmart.com.br');
             $message->subject('E-mail enviado pelo site da Solucão Smart');
         });
         return response()->json([

@@ -161,7 +161,9 @@
                                     </div>
                                 </li>
                                 <li>
+                                    <router-link to="/trabalheconosco">
                                     <a class="nav-link" href="#">Trabalhe Conosco</a>
+                                    </router-link>
                                 </li>
     
                                 <li class="nav-item dropdown">

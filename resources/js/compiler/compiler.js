@@ -491,6 +491,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "HomeProg",
   mounted: function mounted() {
@@ -1922,11 +1924,30 @@ var render = function() {
                       _vm._v(" "),
                       _vm._m(7),
                       _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c(
+                            "router-link",
+                            { attrs: { to: "/trabalheconosco" } },
+                            [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "nav-link",
+                                  attrs: { href: "#" }
+                                },
+                                [_vm._v("Trabalhe Conosco")]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
                       _vm._m(8),
                       _vm._v(" "),
-                      _vm._m(9),
-                      _vm._v(" "),
-                      _vm._m(10)
+                      _vm._m(9)
                     ]
                   )
                 ]
@@ -1948,7 +1969,7 @@ var render = function() {
               }
             },
             [
-              _vm._m(11),
+              _vm._m(10),
               _vm._v(" "),
               _c("div", { staticClass: "carousel-inner" }, [
                 _c(
@@ -1968,15 +1989,15 @@ var render = function() {
                 )
               ]),
               _vm._v(" "),
-              _vm._m(12),
+              _vm._m(11),
               _vm._v(" "),
-              _vm._m(13)
+              _vm._m(12)
             ]
           )
         ])
       ]),
       _vm._v(" "),
-      _vm._m(14)
+      _vm._m(13)
     ])
   ])
 }
@@ -2317,16 +2338,6 @@ var staticRenderFns = [
           ])
         ]
       )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [
-      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-        _vm._v("Trabalhe Conosco")
-      ])
     ])
   },
   function() {

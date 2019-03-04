@@ -152,9 +152,9 @@
         
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-4 col-md-8 text-right">
-                <!-- <router-link to="/"> -->
+                <router-link to="/">
                  <div class="btn btn-primary" @click="submit()">Enviar</div>
-                <!-- </router-link> -->
+                </router-link>
              </div>
          </div>
 
