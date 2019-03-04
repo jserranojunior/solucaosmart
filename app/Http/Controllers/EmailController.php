@@ -30,16 +30,27 @@ class EmailController extends Controller
     }
 
     public function clube(Request $request){
-
-
     
-        $dados = ['dados' => $request->all()];
-
-       //return view('emails.bodymails')->with($dados);
+        $dados = ['dados' => $request->all()];       
 
         Mail::send('emails.clube', $dados, function($message){
             // $message->to('jorgeserranojunior@hotmail.com');
             $message->to('contato@solucaosmart.com.br');
+            $message->subject('E-mail enviado pelo site da Solucão Smart');
+        });
+        return response()->json([
+            'message' => 'E-mail Enviado',  
+            'data' => ''              
+        ]);
+    }
+
+
+    public function trabalheconosco(Request $request){    
+        $dados = ['dados' => $request->all()];       
+
+        Mail::send('emails.trabalheconosco', $dados, function($message){
+            $message->to('jorgeserranojunior@hotmail.com');
+            // $message->to('contato@solucaosmart.com.br');
             $message->subject('E-mail enviado pelo site da Solucão Smart');
         });
         return response()->json([

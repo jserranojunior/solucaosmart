@@ -15027,11 +15027,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       inputs: {}
     };
   },
-  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])([// 'SubmitPropClube',
-    // 'EnviarEmailClube',
-  ]), {
-    submit: function submit() {// this.SubmitPropClube(this.inputs)
-      // this.EnviarEmailClube(this.inputs)
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])(['SubmitTrabalhe', 'EnviarEmailTrabalhe']), {
+    submit: function submit() {
+      this.SubmitTrabalhe(this.inputs);
+      this.EnviarEmailTrabalhe(this.inputs);
     },
     changeBackground: function changeBackground() {
       var el = document.body;
@@ -15042,6 +15041,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     this.inputs.nome = "";
     this.inputs.data_nascimento = "";
     this.inputs.estado_civil = "";
+    this.inputs.rg = "";
     this.inputs.cpf = "";
     this.inputs.telefone = "";
     this.inputs.celular = "";
@@ -15055,6 +15055,13 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     this.inputs.complemento = "";
     this.inputs.observacao = "";
     this.inputs.tipo_logradouro = "";
+    this.inputs.cidade = "";
+    this.inputs.estado = "";
+    this.inputs.formacao = "";
+    this.inputs.pretencao = "";
+    this.inputs.cursos = "";
+    this.inputs.experiencias = "";
+    this.inputs.idiomas = "";
   },
   mounted: function mounted() {
     this.changeBackground();
@@ -38225,16 +38232,20 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "row row-space-form justify-content-center" }, [
-      _c(
-        "div",
-        { staticClass: "col-lg-4 col-md-8 text-right" },
-        [
-          _c("router-link", { attrs: { to: "/" } }, [
-            _c("div", { staticClass: "btn btn-primary " }, [_vm._v("Enviar")])
-          ])
-        ],
-        1
-      )
+      _c("div", { staticClass: "col-lg-4 col-md-8 text-right" }, [
+        _c(
+          "div",
+          {
+            staticClass: "btn btn-primary",
+            on: {
+              click: function($event) {
+                _vm.submit()
+              }
+            }
+          },
+          [_vm._v("Enviar")]
+        )
+      ])
     ])
   ])
 }
@@ -53905,6 +53916,49 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/trabalheconosco/VuexTrabalheConosco.js":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/trabalheconosco/VuexTrabalheConosco.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  state: {
+    trabalhe: {},
+    email: ''
+  },
+  mutations: {
+    SUBMITTRABALHE: function SUBMITTRABALHE(state, inputs) {
+      state.trabalhe = inputs;
+    },
+    ENVIAR_EMAIL_TRABALHE: function ENVIAR_EMAIL_TRABALHE(state, email) {
+      state.email = email;
+    }
+  },
+  actions: {
+    SubmitTrabalhe: function SubmitTrabalhe(context, data) {
+      context.commit('SUBMITTRABALHE', data);
+    },
+    EnviarEmailTrabalhe: function EnviarEmailTrabalhe(context, data) {
+      // console.log(data)
+      var url = '/api/send/trabalheconosco';
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(url, data).then(function (response) {
+        return context.commit('ENVIAR_EMAIL_TRABALHE', response.data);
+      }).catch(function (error) {
+        console.log(response.data);
+      });
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/main.js":
 /*!******************************!*\
   !*** ./resources/js/main.js ***!
@@ -54014,6 +54068,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
 /* harmony import */ var _components_projetos_VuexProjetos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/projetos/VuexProjetos */ "./resources/js/components/projetos/VuexProjetos.js");
 /* harmony import */ var _components_clubesmart_VuexClubeSmart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/clubesmart/VuexClubeSmart */ "./resources/js/components/clubesmart/VuexClubeSmart.js");
+/* harmony import */ var _components_trabalheconosco_VuexTrabalheConosco__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/trabalheconosco/VuexTrabalheConosco */ "./resources/js/components/trabalheconosco/VuexTrabalheConosco.js");
+
 
 
 
@@ -54022,7 +54078,8 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_1__
 /* harmony default export */ __webpack_exports__["default"] = (new vuex__WEBPACK_IMPORTED_MODULE_1__["default"].Store({
   modules: {
     Projetos: _components_projetos_VuexProjetos__WEBPACK_IMPORTED_MODULE_2__["default"],
-    ClubeSmart: _components_clubesmart_VuexClubeSmart__WEBPACK_IMPORTED_MODULE_3__["default"]
+    ClubeSmart: _components_clubesmart_VuexClubeSmart__WEBPACK_IMPORTED_MODULE_3__["default"],
+    TrabalheConosco: _components_trabalheconosco_VuexTrabalheConosco__WEBPACK_IMPORTED_MODULE_4__["default"]
   }
 }));
 

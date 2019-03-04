@@ -152,9 +152,9 @@
         
          <div class="row row-space-form justify-content-center">
              <div class="col-lg-4 col-md-8 text-right">
-                 <router-link to="/">
-                 <div class="btn btn-primary ">Enviar</div>
-                 </router-link>
+                <!-- <router-link to="/"> -->
+                 <div class="btn btn-primary" @click="submit()">Enviar</div>
+                <!-- </router-link> -->
              </div>
          </div>
 
@@ -179,12 +179,12 @@ import AwesomeMask from 'awesome-mask'
          },
          methods:{
               ...mapActions([
-            // 'SubmitPropClube',
-            // 'EnviarEmailClube',
+            'SubmitTrabalhe',
+            'EnviarEmailTrabalhe',
         ]),
         submit(){
-            // this.SubmitPropClube(this.inputs)
-            // this.EnviarEmailClube(this.inputs)
+            this.SubmitTrabalhe(this.inputs)
+            this.EnviarEmailTrabalhe(this.inputs)
         },
         changeBackground(){
             const el = document.body;
@@ -194,7 +194,8 @@ import AwesomeMask from 'awesome-mask'
          beforeMount(){
              this.inputs.nome = ""
              this.inputs.data_nascimento = ""
-             this.inputs.estado_civil = ""             
+             this.inputs.estado_civil = ""
+              this.inputs.rg = ""             
              this.inputs.cpf = ""
              this.inputs.telefone = ""
              this.inputs.celular = ""
@@ -208,6 +209,14 @@ import AwesomeMask from 'awesome-mask'
              this.inputs.complemento = ""
              this.inputs.observacao = ""
              this.inputs.tipo_logradouro = ""
+
+             this.inputs.cidade = ""
+             this.inputs.estado = ""
+             this.inputs.formacao = ""
+             this.inputs.pretencao = ""
+             this.inputs.cursos = ""
+             this.inputs.experiencias = ""
+             this.inputs.idiomas = ""
          },
          mounted(){
              this.changeBackground();
