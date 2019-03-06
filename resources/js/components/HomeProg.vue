@@ -6,7 +6,7 @@
                 <div class="col-12 nav-social   navbar-dark bg-light text-light">
                     <div class="navbar grad-smart">
                         <div class="col-md-4 sm-align-center col-sm-12">
-                            <div class="btn"> <i class="fas fa-map-marker-alt"></i> Rua Dr. Costa Valente. 217 - Brás - SP</div>
+                            <div class="btn-sm"> <i class="fas fa-map-marker-alt"></i> Rua Dr. Costa Valente. 217 - Brás - SP</div>
                         </div>
     
                         <div class="col-md-4 sm-align-center col-sm-12 text-center">
@@ -217,11 +217,24 @@
                             <div class="col-12">
                                 Pessoal / Empresarial
                             </div>
-              </div>-->
+              </div>--> 
+
+            <div class="row row-space">
+                <div class="col-md-6  col-sm-12 text-center">
+                    <div class="btn-big-smart grad-smart"> <h5>PESSOAL <i class="fas fa-angle-down"></i></h5></div>                    
+                </div>
+
+                <div class="col-md-6 col-sm-12 text-center">
+                    <div class="btn-big-smart grad-smart"> <h5>EMPRESARIAL <i class="fas fa-angle-down"></i></h5> </div>
+                </div>
+            </div>
+
             <div class="row-space">
                 <!-- /solucaosmart -->
                 <img src="/img/previa-corte.png" class="img-fluid img-center" alt>
             </div>
+
+            
         </div>
     </div>
 </template>
@@ -238,6 +251,11 @@ export default {
 <style scoped>
 .grad-smart {
     background-image: linear-gradient(to left, #ea3232, #ff9900);
+}
+
+.btn-big-smart{
+        padding: 39px 20%;
+    color:white;
 }
 
 .navbar-dark .navbar-nav .nav-link {
