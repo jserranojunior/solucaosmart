@@ -11,24 +11,24 @@
     
                         <div class="col-md-4 sm-align-center col-sm-12 text-center">
                             <span>
-                          <div class="btn">
-                            <i class="fab fa-twitter"></i>
-                          </div>
-        
-                          |
-                          <div class="btn">
-                            <i class="fab fa-facebook-square"></i>
-                          </div>|
-                          <div class="btn">
-                            <i class="fab fa-google-plus-g"></i>
-                          </div>|
-                          <div class="btn">
-                            <i class="fab fa-linkedin"></i>
-                          </div>|
-                          <div class="btn">
-                            <i class="fab fa-instagram"></i>
-                          </div>
-                        </span>
+                              <div class="btn">
+                                <i class="fab fa-twitter"></i>
+                              </div>
+            
+                              |
+                              <div class="btn">
+                                <i class="fab fa-facebook-square"></i>
+                              </div>|
+                              <div class="btn">
+                                <i class="fab fa-google-plus-g"></i>
+                              </div>|
+                              <div class="btn">
+                                <i class="fab fa-linkedin"></i>
+                              </div>|
+                              <div class="btn">
+                                <i class="fab fa-instagram"></i>
+                              </div>
+                            </span>
                         </div>
     
     
@@ -47,18 +47,18 @@
             <div class="row row-space">
                 <div class="col-12 text-center">
                     <span class="text-center">
-                        <img src="/img/bandeiras/portugues.png" class="img-fluid img-bandeira" alt=""> Português | 
-                        <img src="/img/bandeiras/espanhol.png" class="img-fluid img-bandeira" alt=""> Espanhol | 
-                        <img src="/img/bandeiras/ingles.png" class="img-fluid img-bandeira" alt=""> Inglês | 
-                        <img src="/img/bandeiras/frances.png" class="img-fluid img-bandeira" alt=""> Francês</span>
+                            <img src="/img/bandeiras/portugues.png" class="img-fluid img-bandeira" alt=""> Português | 
+                            <img src="/img/bandeiras/espanhol.png" class="img-fluid img-bandeira" alt=""> Espanhol | 
+                            <img src="/img/bandeiras/ingles.png" class="img-fluid img-bandeira" alt=""> Inglês | 
+                            <img src="/img/bandeiras/frances.png" class="img-fluid img-bandeira" alt=""> Francês</span>
                 </div>
             </div>
             <div class="row row-space">
                 <div class="col-12">
                     <nav class="navbar grad-smart navbar-expand-lg navbar-dark bg-light">
                         <button class="navbar-toggler text-center text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto text-nowrap flex-row mx-md-auto">
                                 <li class="nav-item dropdown">
@@ -162,7 +162,7 @@
                                 </li>
                                 <li>
                                     <router-link to="/trabalheconosco">
-                                    <a class="nav-link" href="#">Trabalhe Conosco</a>
+                                        <a class="nav-link" href="#">Trabalhe Conosco</a>
                                     </router-link>
                                 </li>
     
@@ -197,44 +197,135 @@
                             <div class="carousel-item active">
                                 <router-link to="/clubesmart">
                                     <a href="#">
-                            <img src="/img/clube.jpeg" class="d-block w-100 img-fluid" alt="...">
-                          </a>
+                                <img src="/img/clube.jpeg" class="d-block w-100 img-fluid" alt="...">
+                              </a>
                                 </router-link>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
                         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
             <!-- <div class="row row-space">
-                            <div class="col-12">
-                                Pessoal / Empresarial
-                            </div>
-              </div>--> 
-
+                                <div class="col-12">
+                                    Pessoal / Empresarial
+                                </div>
+                  </div>-->
+    
             <div class="row row-space">
                 <div class="col-md-6  col-sm-12 text-center">
-                    <div class="btn-big-smart grad-smart"> <h5>PESSOAL <i class="fas fa-angle-down"></i></h5></div>                    
+                    <div class="btn-big-smart grad-smart">
+                        <h5>PESSOAL <i class="fas fa-angle-down"></i></h5>
+                    </div>
                 </div>
-
+    
                 <div class="col-md-6 col-sm-12 text-center">
-                    <div class="btn-big-smart grad-smart"> <h5>EMPRESARIAL <i class="fas fa-angle-down"></i></h5> </div>
+                    <div class="btn-big-smart grad-smart">
+                        <h5>EMPRESARIAL <i class="fas fa-angle-down"></i></h5>
+                    </div>
                 </div>
             </div>
+    
+            <div class="row-space text-center row justify-content-center">
+                <div class="col-10">
+                    <h2 class="text-center"> SEJA BEM VINDO</h2>
+                    <h5 class="text-center">orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet dolor nisl. Vestibulum eleifend sit amet ex in tempor. Morbi rhoncus, odio eu laoreet aliquet, urna tortor volutpat purus, in consectetur metus justo vel ligula.
+                        Cras a dictum turpis, ac blandit elit. </h5>
+                </div>
+            </div>
+    
+            <div class="row row-space justify-content-center">
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h2 class="text-smart"><i class="fas fa-home"></i></h2>
+                                    <h5 class="card-title">LOREM IPSUM DOLOR</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet dolor nisl. Vestibulum eleifend sit amet ex in tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h2 class="text-smart"><i class="fas fa-university"></i></h2>
+                                    <h5 class="card-title">LOREM IPSUM DOLOR</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet dolor nisl. Vestibulum eleifend sit amet ex in tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h2 class="text-smart"><i class="fas fa-shopping-bag"></i></h2>
+                                    <h5 class="card-title">LOREM IPSUM DOLOR</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet dolor nisl. Vestibulum eleifend sit amet ex in tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="row row-space">
+                         <div class="col-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h2 class="text-smart"><i class="fas fa-signal"></i></h2>
+                                    <h5 class="card-title">LOREM IPSUM DOLOR</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet dolor nisl. Vestibulum eleifend sit amet ex in tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="col-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h2 class="text-smart"><i class="fas fa-key"></i></h2>
+                                    <h5 class="card-title">LOREM IPSUM DOLOR</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet dolor nisl. Vestibulum eleifend sit amet ex in tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="col-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h2 class="text-smart"><i class="fab fa-dropbox"></i></h2>
+                                    <h5 class="card-title">LOREM IPSUM DOLOR</h5>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet dolor nisl. Vestibulum eleifend sit amet ex in tempor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
             <div class="row-space">
                 <!-- /solucaosmart -->
                 <img src="/img/previa-corte.png" class="img-fluid img-center" alt>
             </div>
-
-            
+    
+    
         </div>
     </div>
 </template>
@@ -253,9 +344,13 @@ export default {
     background-image: linear-gradient(to left, #ea3232, #ff9900);
 }
 
-.btn-big-smart{
-        padding: 39px 20%;
-    color:white;
+.text-smart{
+    color:#ff9900;
+}
+
+.btn-big-smart {
+    padding: 39px 20%;
+    color: white;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -320,14 +415,12 @@ img.img-fluid.img-bandeira {
     width: 22px;
 }
 
-@media (max-width: 575.98px) { 
-    .sm-align-center{
-        text-align: center! important;
-            }
-            .flex-row {
-    flex-direction: column! important;
+@media (max-width: 575.98px) {
+    .sm-align-center {
+        text-align: center ! important;
+    }
+    .flex-row {
+        flex-direction: column ! important;
+    }
 }
- }
-
-
 </style>
