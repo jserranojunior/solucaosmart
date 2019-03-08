@@ -319,6 +319,30 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row row-space">
+                <div class="col-6">
+                    <img src="/img/predio.png" class="img-fluid img-center" alt>
+                </div>
+                <div class="col-6 bg-grey">
+                  <div class="painel-sobre">
+                        <h1>
+                            Sobre nossa empresa
+                        </h1><br>
+                        <h4>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia architecto numquam quia harum quos quaerat error impedit illum veniam, optio incidunt voluptatem vel, officiis obcaecati suscipit corporis sit iste odit!
+                        </h4>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row-space text-center row justify-content-center">
+                <div class="col-10">
+                    <h2 class="text-center"> TRAMITES </h2>
+                    <h5 class="text-center">orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet dolor nisl. Vestibulum eleifend sit amet ex in tempor. Morbi rhoncus, odio eu laoreet aliquet, urna tortor volutpat purus, in consectetur metus justo vel ligula.
+                        Cras a dictum turpis, ac blandit elit. </h5>
+                </div>
+            </div>
     
             <div class="row-space">
                 <!-- /solucaosmart -->
@@ -348,9 +372,17 @@ export default {
     color:#ff9900;
 }
 
+.bg-grey{
+    background-color: #e1e1e1;
+}
+
 .btn-big-smart {
     padding: 39px 20%;
     color: white;
+}
+
+.painel-sobre {
+    margin-top: 50px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
