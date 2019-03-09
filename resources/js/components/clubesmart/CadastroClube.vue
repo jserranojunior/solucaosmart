@@ -1,6 +1,8 @@
  <template>
      <div>
 
+         <Menu></Menu>
+
 <div class="container">
   
     <div class="row row-space">
@@ -153,6 +155,8 @@
     mapActions
 } from 'vuex'
 
+import Menu from '../menu/Menu'
+
 
 import AwesomeMask from 'awesome-mask'
 
@@ -162,6 +166,9 @@ import AwesomeMask from 'awesome-mask'
              return{
                  inputs:{}
               }
+         },
+         components:{
+             Menu,
          },
          methods:{
               ...mapActions([

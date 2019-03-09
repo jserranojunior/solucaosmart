@@ -1,6 +1,8 @@
  <template>
      <div>
 
+         <Menu></Menu>
+
          <div class="row row-space">
              <div class="col-12 text-center">
                  <h4>Trabalhe Conosco</h4>
@@ -167,6 +169,7 @@
     mapActions
 } from 'vuex'
 
+import Menu from '../menu/Menu'
 
 import AwesomeMask from 'awesome-mask'
 
@@ -176,6 +179,9 @@ import AwesomeMask from 'awesome-mask'
              return{
                  inputs:{}
               }
+         },
+         components:{
+             Menu,
          },
          methods:{
               ...mapActions([
