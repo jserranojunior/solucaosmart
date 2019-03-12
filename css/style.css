@@ -89,4 +89,10 @@ img.img-fluid.img-bandeira {
     .flex-row {
         flex-direction: column ! important;
     }
+    .ocultar-phone{
+        display:none;
+    }
+    .navbar-menu {
+        padding: 0.5rem 0rem;
+    }
 }

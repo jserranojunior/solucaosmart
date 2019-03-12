@@ -1938,7 +1938,7 @@ var staticRenderFns = [
         "div",
         { staticClass: "col-12 nav-social   navbar-dark bg-light text-light" },
         [
-          _c("div", { staticClass: "navbar grad-smart" }, [
+          _c("div", { staticClass: "navbar navbar-menu grad-smart" }, [
             _c("div", { staticClass: "col-md-4 sm-align-center col-sm-12" }, [
               _c("div", { staticClass: "btn-sm" }, [
                 _c("i", { staticClass: "fas fa-map-marker-alt" }),
@@ -2005,22 +2005,31 @@ var staticRenderFns = [
             staticClass: "img-fluid img-bandeira",
             attrs: { src: "/img/bandeiras/portugues.png", alt: "" }
           }),
-          _vm._v(" Português | \n                        "),
+          _vm._v(" "),
+          _c("span", { staticClass: "ocultar-phone" }, [
+            _vm._v("Português | ")
+          ]),
+          _vm._v(" "),
           _c("img", {
             staticClass: "img-fluid img-bandeira",
             attrs: { src: "/img/bandeiras/espanhol.png", alt: "" }
           }),
-          _vm._v(" Espanhol | \n                        "),
+          _vm._v(" "),
+          _c("span", { staticClass: "ocultar-phone" }, [_vm._v("Espanhol | ")]),
+          _vm._v(" "),
           _c("img", {
             staticClass: "img-fluid img-bandeira",
             attrs: { src: "/img/bandeiras/ingles.png", alt: "" }
           }),
-          _vm._v(" Inglês | \n                        "),
+          _vm._v(" "),
+          _c("span", { staticClass: "ocultar-phone" }, [_vm._v("Inglês | ")]),
+          _vm._v(" "),
           _c("img", {
             staticClass: "img-fluid img-bandeira",
             attrs: { src: "/img/bandeiras/frances.png", alt: "" }
           }),
-          _vm._v(" Francês")
+          _vm._v(" "),
+          _c("span", { staticClass: "ocultar-phone" }, [_vm._v("Francês ")])
         ])
       ])
     ])

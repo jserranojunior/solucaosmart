@@ -4,7 +4,7 @@
             <div class="row row-space ">
     
                 <div class="col-12 nav-social   navbar-dark bg-light text-light">
-                    <div class="navbar grad-smart">
+                    <div class="navbar navbar-menu grad-smart">
                         <div class="col-md-4 sm-align-center col-sm-12">
                             <div class="btn-sm"> <i class="fas fa-map-marker-alt"></i> Rua Dr. Costa Valente. 217 - Brás - SP</div>
                         </div>
@@ -47,10 +47,10 @@
             <div class="row row-space">
                 <div class="col-12 text-center">
                     <span class="text-center">
-                            <img src="/img/bandeiras/portugues.png" class="img-fluid img-bandeira" alt=""> Português | 
-                            <img src="/img/bandeiras/espanhol.png" class="img-fluid img-bandeira" alt=""> Espanhol | 
-                            <img src="/img/bandeiras/ingles.png" class="img-fluid img-bandeira" alt=""> Inglês | 
-                            <img src="/img/bandeiras/frances.png" class="img-fluid img-bandeira" alt=""> Francês</span>
+                            <img src="/img/bandeiras/portugues.png" class="img-fluid img-bandeira" alt=""> <span class="ocultar-phone">Português | </span>
+                            <img src="/img/bandeiras/espanhol.png" class="img-fluid img-bandeira" alt=""> <span class="ocultar-phone">Espanhol | </span>
+                            <img src="/img/bandeiras/ingles.png" class="img-fluid img-bandeira" alt=""> <span class="ocultar-phone">Inglês | </span>
+                            <img src="/img/bandeiras/frances.png" class="img-fluid img-bandeira" alt=""> <span class="ocultar-phone">Francês </span> </span>
                 </div>
             </div>
             
@@ -237,4 +237,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>
