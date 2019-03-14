@@ -2407,12 +2407,10 @@ var render = function() {
               "navbar grad-smart navbar-expand-lg navbar-dark bg-light"
           },
           [
-            _vm._m(0),
-            _vm._v(" "),
             _c(
               "div",
               {
-                staticClass: "collapse navbar-collapse",
+                staticClass: "navbar-collapse",
                 attrs: { id: "navbarSupportedContent" }
               },
               [
@@ -2437,7 +2435,7 @@ var render = function() {
                       1
                     ),
                     _vm._v(" "),
-                    _vm._m(1),
+                    _vm._m(0),
                     _vm._v(" "),
                     _c("li", { staticClass: "nav-item dropdown" }, [
                       _c(
@@ -2463,9 +2461,9 @@ var render = function() {
                           attrs: { "aria-labelledby": "navbarDropdown" }
                         },
                         [
-                          _vm._m(2),
+                          _vm._m(1),
                           _vm._v(" "),
-                          _vm._m(3),
+                          _vm._m(2),
                           _vm._v(" "),
                           _c(
                             "a",
@@ -2500,7 +2498,7 @@ var render = function() {
                       )
                     ]),
                     _vm._v(" "),
-                    _vm._m(4),
+                    _vm._m(3),
                     _vm._v(" "),
                     _c("li", { staticClass: "nav-item dropdown" }, [
                       _c(
@@ -2577,7 +2575,7 @@ var render = function() {
                       )
                     ]),
                     _vm._v(" "),
-                    _vm._m(5),
+                    _vm._m(4),
                     _vm._v(" "),
                     _c(
                       "li",
@@ -2597,9 +2595,9 @@ var render = function() {
                       1
                     ),
                     _vm._v(" "),
-                    _vm._m(6),
+                    _vm._m(5),
                     _vm._v(" "),
-                    _vm._m(7)
+                    _vm._m(6)
                   ]
                 )
               ]
@@ -2611,26 +2609,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "button",
-      {
-        staticClass: "navbar-toggler text-center text-white",
-        attrs: {
-          type: "button",
-          "data-toggle": "collapse",
-          "data-target": "#navbarSupportedContent",
-          "aria-controls": "navbarSupportedContent",
-          "aria-expanded": "false",
-          "aria-label": "Toggle navigation"
-        }
-      },
-      [_c("span", { staticClass: "navbar-toggler-icon" })]
-    )
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
